@@ -1,0 +1,32 @@
+{
+  "name": "king-accounts",
+  "version": "1.0.0",
+  "description": "Bot Zend/zenSallers para Discord",
+  "author": "Zend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "syncemojis": "node index.js --sync-emojis",
+    "check": "node --check index.js",
+    "check:all": "node scripts/verificar-sintaxe.mjs",
+    "test": "npm run test:paineis && npm run test:antiraid",
+    "test:paineis": "node scripts/testar-paineis.mjs",
+    "test:antiraid": "node scripts/testar-antiraid.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.100",
+    "discord.js": "14.26.4",
+    "express": "^4.19.2",
+    "imapflow": "^1.5.0",
+    "mailparser": "^3.9.14",
+    "qrcode": "^1.5.4",
+    "sdk-node-apis-efi": "^2.0.0"
+  },
+  "overrides": {
+    "undici": "6.27.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
