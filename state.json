@@ -1,0 +1,3339 @@
+{
+  "guilds": {
+    "1520594658516799748": {
+      "currency": "BRL",
+      "locale": "pt_BR",
+      "products": [
+        {
+          "name": "Nitradas",
+          "description": "nitradas mensal e trimensal",
+          "autoDelivery": true,
+          "icon": "",
+          "banner": "",
+          "id": "9339432a-8103-4424-bb6c-1f86d111c5a5",
+          "fields": [
+            {
+              "id": "420f655c-a20c-4db7-9e51-7b647faa5ada",
+              "name": "Nitrada Mensal",
+              "description": "1 Mes de nitro via orbs",
+              "price": 0.5,
+              "stock": [],
+              "ghostStock": {
+                "quantity": 99,
+                "value": "abrir ticket"
+              },
+              "infinite": {
+                "enabled": false,
+                "text": ""
+              },
+              "instructions": {
+                "enabled": false,
+                "description": ""
+              },
+              "lastRestock": 1784698441661,
+              "emoji": "<:carrinhoZend:1518282439712309268>"
+            }
+          ],
+          "coupons": [],
+          "salesMessage": {
+            "channelId": "1520594658961391676",
+            "messageId": "1529370128762929265"
+          },
+          "saleEmoji": "<:carrinhoZend:1518282439712309268>",
+          "saleLabel": "Comprar",
+          "saleStyle": "Verde",
+          "saleColor": "#FFFFFF"
+        }
+      ],
+      "channels": {
+        "orderLogs": "1529371150713618482",
+        "publicPurchases": "1529371153670475857",
+        "welcome": "1529371155431952535",
+        "system": "1529371156342116363",
+        "entries": "1529371157612990505",
+        "exits": "1529371159060287608",
+        "messages": "1529371160641409087",
+        "voiceTraffic": "1529371161614352434",
+        "feedback": "1529371162570784889",
+        "tickets": "1529371163535605760",
+        "notify": "1529371164458090526",
+        "stockRequests": "1529371165422915646"
+      },
+      "roles": {
+        "client": null,
+        "staff": "1529501000254361731",
+        "manager": "1529501000254361731",
+        "notify": null
+      },
+      "payments": {
+        "manual": {
+          "enabled": true,
+          "configured": true,
+          "pixKey": "14996780927",
+          "keyType": "Telefone",
+          "message": "Após o pagamento envie o comprovante"
+        },
+        "efi": {
+          "enabled": false,
+          "configured": false,
+          "clientId": "",
+          "clientSecret": "",
+          "pixKey": "",
+          "certificate": ""
+        },
+        "mercadoPago": {
+          "enabled": false,
+          "configured": false,
+          "accessToken": "",
+          "publicKey": ""
+        },
+        "zenWallet": {
+          "enabled": false,
+          "configured": true
+        },
+        "nubank": {
+          "enabled": false,
+          "configured": false
+        },
+        "pushinpay": {
+          "enabled": false,
+          "configured": false
+        },
+        "litecoin": {
+          "enabled": false,
+          "configured": false
+        }
+      },
+      "welcome": {
+        "enabled": true,
+        "embed": false,
+        "autoDeleteSeconds": 5,
+        "message": "Olá {member} gaste todo seu dinheiro na loja!",
+        "image": "",
+        "color": "#2b2d31",
+        "title": "Bem-vindo(a)!"
+      },
+      "ticket": {
+        "configured": true,
+        "openMode": "Canal Privado",
+        "messageMode": "Embed Clássico",
+        "title": "Central de Atendimento",
+        "description": "Após solicitar um atendimento, aguarde um integrante da equipe responde-lo(a). O atendimento é realizado de forma privada, contudo, somente integrantes da equipe terá acesso ao atendimento. Tenha ciência que a nossa equipe não se encontra presente 24 horas por dia, contudo, dentro dos horários citados acima nossa equipe se encontra disponibilizada a atende-lo(a).",
+        "banner": "https://cdn.discordapp.com/attachments/1520594658961391676/1529506542129385643/Emily_The_Strange_-_Timeline.jpg?ex=6a622f78&is=6a60ddf8&hm=ee04ece67517f236f6d8fb4a1f352c4fcc8a97a4d33f212be170a6cb7b3415b8",
+        "color": "#FFFFFF",
+        "functions": [
+          {
+            "id": "support",
+            "name": "Suporte",
+            "preDescription": "Preciso de suporte",
+            "description": "Atendimento geral",
+            "emoji": "📋",
+            "banner": "",
+            "purchaseDetection": true
+          },
+          {
+            "id": "a11b463c-6b2d-4f6c-81cd-2a83bf1efe40",
+            "name": "Ajuda",
+            "preDescription": "Receba Ajuda",
+            "description": "",
+            "banner": "",
+            "emoji": "📋",
+            "purchaseDetection": true
+          }
+        ],
+        "hoursEnabled": false,
+        "allowOutsideHours": true,
+        "hoursByDay": [
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          }
+        ],
+        "postedMessages": [
+          {
+            "channelId": "1520594658961391676",
+            "messageId": "1529507385574559805"
+          }
+        ]
+      },
+      "automations": {
+        "repost": {
+          "enabled": true,
+          "nuke": false,
+          "time": "09:00"
+        },
+        "messages": {
+          "enabled": true,
+          "items": [
+            {
+              "content": "Deixe um feedback em nosso servidor para ganhar garantia",
+              "intervalMinutes": 1,
+              "image": "",
+              "mode": "embed",
+              "color": "#E60000",
+              "id": "msg_mrw7fuoz_45yhx",
+              "channelId": "1520594658961391676",
+              "lastSentAt": 1784743701511,
+              "nextRunAt": 1784743761511,
+              "buttons": [],
+              "lastMessageId": "1529550683823542337",
+              "lastChannelId": "1520594658961391676"
+            }
+          ]
+        },
+        "cleanup": {
+          "enabled": false,
+          "rules": []
+        },
+        "feedback": {
+          "enabled": true,
+          "channel": "1520594658961391676",
+          "reactionEmoji": "1529330292236488725",
+          "channels": []
+        },
+        "lock": {
+          "enabled": true,
+          "rules": [
+            {
+              "id": "lock_mrvmmlwj_6mf7c",
+              "channelId": "1520594658961391676",
+              "lockAt": "02:15",
+              "unlockAt": "02:16",
+              "lastLockDate": "2026-07-22",
+              "lastUnlockDate": "2026-07-22"
+            }
+          ]
+        },
+        "invite": {
+          "enabled": false,
+          "logChannel": null,
+          "rewards": [],
+          "countFake": false,
+          "minimumAccountDays": 7
+        },
+        "restock": {
+          "enabled": true,
+          "channel": "1520594658961391676",
+          "mention": "none",
+          "role": null,
+          "sentCount": 3
+        }
+      },
+      "balance": {
+        "enabled": false,
+        "users": {
+          "1447381583685226627": {
+            "id": "1447381583685226627",
+            "tag": "1447381583685226627",
+            "balance": 10,
+            "spent": 0,
+            "badges": [],
+            "history": [
+              {
+                "at": 1784695351145,
+                "userId": "1447381583685226627",
+                "mode": "add",
+                "amount": 10,
+                "before": 0,
+                "after": 10,
+                "reason": "sla"
+              }
+            ]
+          },
+          "1516834021718360104": {
+            "id": "1516834021718360104",
+            "tag": "4bsc",
+            "balance": 0,
+            "spent": 0.5,
+            "badges": [],
+            "history": []
+          }
+        },
+        "history": [
+          {
+            "at": 1784695351145,
+            "userId": "1447381583685226627",
+            "mode": "add",
+            "amount": 10,
+            "before": 0,
+            "after": 10,
+            "reason": "sla"
+          }
+        ]
+      },
+      "positions": [
+        {
+          "index": 1,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 2,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 3,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 4,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 5,
+          "roleId": null,
+          "amount": null
+        }
+      ],
+      "badges": [],
+      "badgeSettings": {
+        "enabled": true,
+        "dm": true,
+        "announcements": true,
+        "announcementChannel": null,
+        "display": true
+      },
+      "tempRoles": [],
+      "tempRoleSettings": {
+        "enabled": true,
+        "removeExpired": true,
+        "notifyDm": true
+      },
+      "storeOauth": {
+        "required": false
+      },
+      "emojis": {
+        "synced": {
+          "2904notifymember": "1518360379950891209",
+          "account": "1518360380827504902",
+          "Aceitar": "1518282432724467773",
+          "activity": "1518360382245441638",
+          "Arrow": "1518282436453339437",
+          "banco2": "1518360384199856309",
+          "carrinhoZend": "1518282439712309268",
+          "celebration": "1518360385630244906",
+          "check": "1518360386976485677",
+          "clock": "1518360388368859268",
+          "cloud": "1518360389392273592",
+          "copicola": "1518282443080204288",
+          "cpfnanotaeolhela": "1518282445986992259",
+          "delete": "1518282449363144744",
+          "ea1": "1518282452135579759",
+          "ea2": "1518282455843471422",
+          "ea3": "1518282459190526172",
+          "ea4": "1518282462415945931",
+          "ea5": "1518282466018852967",
+          "ea6": "1518282469512843345",
+          "ea7": "1518282472385675337",
+          "ea8": "1518282475934060647",
+          "Editar": "1518360390936039647",
+          "editestoque": "1518282479432368190",
+          "efi": "1518360392458305636",
+          "entregaSucess": "1518282482729091122",
+          "folder": "1518360393679114321",
+          "forum": "1518360394949722313",
+          "genesisClock": "1518673647353598166",
+          "genesisNoC": "1518360396178657361",
+          "genesisTicket": "1518360397269172335",
+          "genesisVerifieldDuo": "1518673657465933934",
+          "genesisYes": "1518360398620004572",
+          "hearth": "1518360399840415875",
+          "icons8carrinhodecomprascarregado": "1518360400977072259",
+          "imp_llitecoin": "1518360401962733740",
+          "imp_mercadopago": "1518360403292323932",
+          "infogenesiss": "1518360404672385095",
+          "left": "1518360405737607258",
+          "lightning": "1518360406891040798",
+          "litecoinemojidocalai": "1518282485807714314",
+          "lixeiraRed": "1518360408187207681",
+          "loadinggenesiss": "1518360409843957790",
+          "lockEmoji": "1518673659286257694",
+          "p7dro_pix": "1518360410921762889",
+          "Pix": "1518282489465143448",
+          "plus": "1518360411999830137",
+          "pushInPay": "1518360413526560929",
+          "receipt": "1518360414650630254",
+          "refresh": "1518360416554713250",
+          "role": "1518360418257731804",
+          "roller": "1518360419268296866",
+          "Secured": "1518360420287647915",
+          "setaAnimada": "1518360421633884440",
+          "settings": "1518360422942642306",
+          "Sincronizar": "1518360424410775552",
+          "sparks": "1518360425539043388",
+          "store": "1518360426575036467",
+          "support": "1518360428047110236",
+          "syncMessages": "1518360429708181536",
+          "textc": "1518360431608074392",
+          "Ticket": "1518282492883501206",
+          "title": "1518360432795062483",
+          "trashcan": "1518360434304880722",
+          "unlockEmoji": "1518673660955594874",
+          "upload": "1518360436024672408",
+          "url": "1518360437870170184",
+          "users": "1518360439216537711",
+          "verifieldgenesiss": "1518360440437084470",
+          "visible": "1518360441737318591",
+          "wallet": "1518360443008061572",
+          "welcome": "1518360444161626265",
+          "yesgenesiss": "1518360445621113064",
+          "zendBackupEmoji": "1518282495945211998",
+          "zendCart": "1518282499577610310",
+          "zendGiveaway": "1518360446967611514",
+          "zendMemberGr": "1518282502815485963",
+          "zendPay": "1518282506019803196",
+          "zend_add": "1529352732572520490",
+          "zend_alarm": "1529352749685280929",
+          "zend_bag": "1529352738306261052",
+          "zend_bell": "1529352772737171556",
+          "zend_botmsg": "1529352739161768039",
+          "zend_broom": "1529352797642952845",
+          "zend_calendar": "1529352740701208798",
+          "zend_campaign": "1529352741804052540",
+          "zend_cancel": "1529352742508691477",
+          "zend_cart": "1529352744148799548",
+          "zend_chart": "1529352758971465738",
+          "zend_chat": "1529352745851818026",
+          "zend_clock": "1529352781415059466",
+          "zend_cloud": "1529352747416031334",
+          "zend_docs": "1529352750733852874",
+          "zend_edit": "1529352793255579779",
+          "zend_error": "1529352753548361778",
+          "zend_folder": "1529352755603312723",
+          "zend_folderopen": "1529352756630917141",
+          "zend_gift": "1529352754517250198",
+          "zend_group": "1529352759944679435",
+          "zend_home": "1529352761265754162",
+          "zend_idea": "1529352763652309052",
+          "zend_image": "1529352757817901066",
+          "zend_left": "1529352733910503464",
+          "zend_link": "1529352764348563477",
+          "zend_lock": "1529352794270597191",
+          "zend_magic": "1529352796518748210",
+          "zend_medal": "1529352769272807544",
+          "zend_money": "1529352735990747177",
+          "zend_moneybag": "1529352770409463858",
+          "zend_note": "1529352791598829798",
+          "zend_paint": "1529352777657090149",
+          "zend_palette": "1529352774192468079",
+          "zend_party": "1529352745109159957",
+          "zend_payment": "1529352775366869102",
+          "zend_pin": "1529352768052264972",
+          "zend_refresh": "1529352779938664668",
+          "zend_remove": "1529352778969776198",
+          "zend_right": "1529352734917136446",
+          "zend_search": "1529352782727876639",
+          "zend_security": "1529352783495696446",
+          "zend_send": "1529352786423054477",
+          "zend_settings": "1529352787580817408",
+          "zend_shield": "1529352788264353965",
+          "zend_sos": "1529352752021508207",
+          "zend_star": "1529352789912719562",
+          "zend_stock": "1529352762322718849",
+          "zend_tag": "1529352784741142715",
+          "zend_target": "1529352771705376851",
+          "zend_temp": "1529353863029723216",
+          "zend_ticket": "1529352766760423485",
+          "zend_trash": "1529352765988536380",
+          "zend_trophy": "1529352795348799510",
+          "zend_unlock": "1529352748590436372",
+          "zend_user": "1529352776541405285",
+          "zend_view": "1529352798700048574",
+          "zend_wallet": "1529352799312154746"
+        },
+        "animated": {
+          "2904notifymember": false,
+          "account": false,
+          "Aceitar": false,
+          "activity": false,
+          "Arrow": false,
+          "banco2": false,
+          "carrinhoZend": false,
+          "celebration": true,
+          "check": false,
+          "clock": false,
+          "cloud": false,
+          "copicola": false,
+          "cpfnanotaeolhela": false,
+          "delete": false,
+          "ea1": false,
+          "ea2": false,
+          "ea3": false,
+          "ea4": false,
+          "ea5": false,
+          "ea6": false,
+          "ea7": false,
+          "ea8": false,
+          "Editar": false,
+          "editestoque": false,
+          "efi": false,
+          "entregaSucess": false,
+          "folder": false,
+          "forum": false,
+          "genesisClock": false,
+          "genesisNoC": false,
+          "genesisTicket": false,
+          "genesisVerifieldDuo": false,
+          "genesisYes": false,
+          "hearth": false,
+          "icons8carrinhodecomprascarregado": false,
+          "imp_llitecoin": false,
+          "imp_mercadopago": false,
+          "infogenesiss": false,
+          "left": false,
+          "lightning": false,
+          "litecoinemojidocalai": false,
+          "lixeiraRed": false,
+          "loadinggenesiss": true,
+          "lockEmoji": false,
+          "p7dro_pix": false,
+          "Pix": false,
+          "plus": false,
+          "pushInPay": false,
+          "receipt": false,
+          "refresh": true,
+          "role": false,
+          "roller": false,
+          "Secured": false,
+          "setaAnimada": true,
+          "settings": false,
+          "Sincronizar": false,
+          "sparks": false,
+          "store": false,
+          "support": false,
+          "syncMessages": false,
+          "textc": false,
+          "Ticket": false,
+          "title": false,
+          "trashcan": false,
+          "unlockEmoji": false,
+          "upload": false,
+          "url": false,
+          "users": false,
+          "verifieldgenesiss": false,
+          "visible": false,
+          "wallet": false,
+          "welcome": false,
+          "yesgenesiss": false,
+          "zendBackupEmoji": false,
+          "zendCart": false,
+          "zendGiveaway": true,
+          "zendMemberGr": false,
+          "zendPay": false,
+          "zend_add": false,
+          "zend_alarm": false,
+          "zend_bag": false,
+          "zend_bell": false,
+          "zend_botmsg": false,
+          "zend_broom": false,
+          "zend_calendar": false,
+          "zend_campaign": false,
+          "zend_cancel": false,
+          "zend_cart": false,
+          "zend_chart": false,
+          "zend_chat": false,
+          "zend_clock": false,
+          "zend_cloud": false,
+          "zend_docs": false,
+          "zend_edit": false,
+          "zend_error": false,
+          "zend_folder": false,
+          "zend_folderopen": false,
+          "zend_gift": false,
+          "zend_group": false,
+          "zend_home": false,
+          "zend_idea": false,
+          "zend_image": false,
+          "zend_left": false,
+          "zend_link": false,
+          "zend_lock": false,
+          "zend_magic": false,
+          "zend_medal": false,
+          "zend_money": false,
+          "zend_moneybag": false,
+          "zend_note": false,
+          "zend_paint": false,
+          "zend_palette": false,
+          "zend_party": false,
+          "zend_payment": false,
+          "zend_pin": false,
+          "zend_refresh": false,
+          "zend_remove": false,
+          "zend_right": false,
+          "zend_search": false,
+          "zend_security": false,
+          "zend_send": false,
+          "zend_settings": false,
+          "zend_shield": false,
+          "zend_sos": false,
+          "zend_star": false,
+          "zend_stock": false,
+          "zend_tag": false,
+          "zend_target": false,
+          "zend_temp": false,
+          "zend_ticket": false,
+          "zend_trash": false,
+          "zend_trophy": false,
+          "zend_unlock": false,
+          "zend_user": false,
+          "zend_view": false,
+          "zend_wallet": false
+        },
+        "lastSyncAt": 1784736049818,
+        "scope": "application"
+      },
+      "customization": {
+        "colors": {
+          "default": "#FFFFFF",
+          "processing": "#fcba03",
+          "success": "#39fc03",
+          "error": "#ff0000",
+          "finished": "#7363ff"
+        },
+        "bot": {
+          "nickname": "",
+          "avatar": "",
+          "banner": "",
+          "status": "Online",
+          "status1": "",
+          "status2": ""
+        },
+        "brand": {
+          "qrLogo": "",
+          "qrColor": "#111827"
+        },
+        "publicLog": {
+          "enabled": false,
+          "v2": true,
+          "image": "",
+          "showBuy": true,
+          "showFeedback": true
+        },
+        "feedbackDm": {
+          "message": "{saudacao} {usuario}. Se você curtiu sua compra, **que tal deixar uma avaliação?** Isso nos motiva, ajuda quem está em dúvida e ainda contribui para que a gente continue oferecendo serviços cada vez melhores pra você! 😉",
+          "buttonText": "Clique aqui e deixe seu feedback ;)",
+          "delaySeconds": 120
+        },
+        "productMessages": {
+          "v2": false,
+          "sideColor": ""
+        }
+      },
+      "stats": {
+        "salesToday": 0.5,
+        "salesTotal": 0.5,
+        "countToday": 1,
+        "countTotal": 1
+      },
+      "purchases": [
+        {
+          "id": "e60bd1fb-dbff-4666-b342-1f937bef0600",
+          "cartId": "516b1db4-4110-4be3-8684-64e517a41fd6",
+          "publicId": "ZEND-00003",
+          "userId": "1516834021718360104",
+          "productId": "9339432a-8103-4424-bb6c-1f86d111c5a5",
+          "fieldId": "420f655c-a20c-4db7-9e51-7b647faa5ada",
+          "product": "Nitradas • Nitrada Mensal",
+          "quantity": 1,
+          "subtotal": 0.5,
+          "discount": 0,
+          "amount": 0.5,
+          "couponCode": null,
+          "paymentMethod": "Pagamento Manual",
+          "at": 1784731901567,
+          "status": "DELIVERED"
+        }
+      ],
+      "giveaways": [],
+      "carts": [
+        {
+          "id": "d1abbcaf-605e-4914-be91-14494cfb1c6c",
+          "publicId": "ZEND-00001",
+          "userId": "1516834021718360104",
+          "userTag": "4bsc",
+          "userName": "4bsc",
+          "userAvatar": "https://cdn.discordapp.com/avatars/1516834021718360104/d06c2e1e6da7d755d2ed9b93128c744f.webp?size=128",
+          "productId": "9339432a-8103-4424-bb6c-1f86d111c5a5",
+          "fieldId": "420f655c-a20c-4db7-9e51-7b647faa5ada",
+          "quantity": 1,
+          "couponCode": null,
+          "paymentMethod": "Pagamento Manual",
+          "status": "CANCELLED",
+          "createdAt": 1784700953166,
+          "updatedAt": 1784700961840,
+          "expiresAt": 1784702753166,
+          "channelId": "1529371387658108978",
+          "messageId": "1529374846335586375",
+          "proof": null,
+          "processing": false,
+          "subtotal": 0.5,
+          "discountPercent": 0,
+          "discount": 0,
+          "total": 0.5,
+          "requestLogSent": true,
+          "cancelReason": "Cancelado por 4bsc",
+          "closedAt": 1784701777359
+        },
+        {
+          "id": "72824935-155f-44fd-9327-49532bde2598",
+          "publicId": "ZEND-00002",
+          "userId": "1516834021718360104",
+          "userTag": "4bsc",
+          "userName": "4bsc",
+          "userAvatar": "https://cdn.discordapp.com/avatars/1516834021718360104/d06c2e1e6da7d755d2ed9b93128c744f.webp?size=128",
+          "productId": "9339432a-8103-4424-bb6c-1f86d111c5a5",
+          "fieldId": "420f655c-a20c-4db7-9e51-7b647faa5ada",
+          "quantity": 1,
+          "couponCode": null,
+          "paymentMethod": "Pagamento Manual",
+          "status": "CANCELLED",
+          "createdAt": 1784704408731,
+          "updatedAt": 1784704415737,
+          "expiresAt": 1784706208731,
+          "channelId": "1529385881499074631",
+          "messageId": "1529498080599216180",
+          "proof": null,
+          "processing": false,
+          "subtotal": 0.5,
+          "discountPercent": 0,
+          "discount": 0,
+          "total": 0.5,
+          "requestLogSent": true,
+          "cancelReason": "Cancelado por 4bsc",
+          "closedAt": 1784731158749
+        },
+        {
+          "id": "516b1db4-4110-4be3-8684-64e517a41fd6",
+          "publicId": "ZEND-00003",
+          "userId": "1516834021718360104",
+          "userTag": "4bsc",
+          "userName": "4bsc",
+          "userAvatar": "https://cdn.discordapp.com/avatars/1516834021718360104/d06c2e1e6da7d755d2ed9b93128c744f.webp?size=128",
+          "productId": "9339432a-8103-4424-bb6c-1f86d111c5a5",
+          "fieldId": "420f655c-a20c-4db7-9e51-7b647faa5ada",
+          "quantity": 1,
+          "couponCode": null,
+          "paymentMethod": "Pagamento Manual",
+          "status": "DELIVERED",
+          "createdAt": 1784731173644,
+          "updatedAt": 1784731180149,
+          "expiresAt": 1784732973644,
+          "channelId": "1529498140825096432",
+          "messageId": "1529498177311477911",
+          "proof": null,
+          "processing": false,
+          "subtotal": 0.5,
+          "discountPercent": 0,
+          "discount": 0,
+          "total": 0.5,
+          "requestLogSent": true,
+          "orderId": "AM_02d2472e-891e-4b95-847a-5e1be7816620",
+          "approvedAt": 1784731901567,
+          "deliveredAt": 1784731901567,
+          "approvedBy": "1516834021718360104",
+          "delivery": [
+            "abrir ticket"
+          ],
+          "manualApprovalLogSent": true,
+          "deliveredItems": [
+            "abrir ticket"
+          ],
+          "deliveryLogSent": true
+        }
+      ],
+      "cartSequence": 3,
+      "cartSettings": {
+        "expirationMinutes": 30
+      },
+      "invitations": {},
+      "subscriptions": [],
+      "stockRequests": [],
+      "tickets": [
+        {
+          "id": "adfd63af-cc22-4939-8270-622679e0d6b4",
+          "userId": "1516834021718360104",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1784733381138,
+          "channelId": "1529507399524941967",
+          "assignedTo": "1516834021718360104",
+          "guildId": "1520594658516799748",
+          "updatedAt": 1784733493145,
+          "closedAt": 1784733705942,
+          "closedBy": "1516834021718360104",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: adfd63af-cc22-4939-8270-622679e0d6b4\n Usuário: 1516834021718360104\n Fechado: 22/07/2026, 12:21:45\n══════════════════════════════════\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1529371425285210165/1529508764925952090/transcript-adfd63af-cc2.txt?ex=6a62318a&is=6a60e00a&hm=c3c1572c9ba2536cb2f62a5c5786c0fb30392e37f17de4e56fdab887a615005c&"
+        },
+        {
+          "id": "8e1d1be1-0e47-41c1-90b0-498834276b0b",
+          "userId": "1516834021718360104",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1784733721208,
+          "channelId": "1529508825600622655",
+          "assignedTo": "1516834021718360104",
+          "guildId": "1520594658516799748",
+          "purchaseId": "e60bd1fb-dbff-4666-b342-1f937bef0600",
+          "purchaseName": "Nitradas • Nitrada Mensal",
+          "updatedAt": 1784733736971,
+          "claimedBy": "1516834021718360104",
+          "assignedAt": 1784733748837,
+          "closedAt": 1784735559622,
+          "closedBy": "1516834021718360104",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 8e1d1be1-0e47-41c1-90b0-498834276b0b\n Usuário: 1516834021718360104\n Fechado: 22/07/2026, 12:52:39\n══════════════════════════════════\n\n[22/07/2026, 12:22:01] Zend clonado#1183:\n@yuki @Equipe @Equipe\n\n[22/07/2026, 12:22:08] Zend clonado#1183:\n-nitrada-mensal・1516834021718360104\n\n[22/07/2026, 12:22:09] Zend clonado#1183:\n:yuki_check: | Ticket para tratar sobre o produto **Nitradas • Nitrada Mensal**.\n:yuki_warning: Por favor, forneça as informações necessárias e aguarde a equipe.\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1529371425285210165/1529516539991031879/transcript-8e1d1be1-0e4.txt?ex=6a6238c8&is=6a60e748&hm=830dcc25e1f31d0e511532409a15db2488d277feb3e77aa513a9596ef135fdb3&"
+        },
+        {
+          "id": "56cfb05c-68cc-43e7-9ae1-ac2e28d10f62",
+          "userId": "1516834021718360104",
+          "functionId": "a11b463c-6b2d-4f6c-81cd-2a83bf1efe40",
+          "functionName": "Ajuda",
+          "status": "archived",
+          "at": 1784735564841,
+          "channelId": "1529516559058337863",
+          "assignedTo": "1516834021718360104",
+          "guildId": "1520594658516799748",
+          "initialMessageId": "1529516563126943967",
+          "purchaseSkipped": true,
+          "claimedBy": "1516834021718360104",
+          "assignedAt": 1784735577927,
+          "closedAt": 1784735870560,
+          "closedBy": "1516834021718360104",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Ajuda\n ID: 56cfb05c-68cc-43e7-9ae1-ac2e28d10f62\n Usuário: 1516834021718360104\n Fechado: 22/07/2026, 12:57:50\n══════════════════════════════════\n\n[22/07/2026, 12:52:45] Zend clonado#1183:\n@yuki @Equipe @Equipe\n\n[22/07/2026, 12:52:46] Zend clonado#1183:\n:zend_check: | Este ticket continuará sem uma compra vinculada. Descreva abaixo como podemos ajudar.\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1529371425285210165/1529517843409014864/transcript-56cfb05c-68c.txt?ex=6a6239fe&is=6a60e87e&hm=9b52d5ba3e88772481d79ec3a834ad561be4f68beeb73e6a135a8591653292f5&"
+        }
+      ],
+      "cloud": {
+        "linked": false,
+        "syncedMembers": null,
+        "serverId": null,
+        "verifiedRoleId": null,
+        "webhookUrl": null
+      },
+      "protect": {
+        "moderation": false,
+        "antiraid": false,
+        "antiSpam": false,
+        "antiLinks": false,
+        "antiMassMention": false,
+        "logChannel": null,
+        "raidLimit": 8,
+        "raidWindowSeconds": 10,
+        "raidPunishment": "Bloquear entradas temporariamente",
+        "selfBot": {
+          "enabled": false,
+          "logChannel": null,
+          "limit": 4
+        },
+        "antiInvite": {
+          "enabled": false,
+          "logChannel": null,
+          "whitelistRoles": []
+        }
+      },
+      "antiFake": {
+        "enabled": true,
+        "minimumAccountDays": 7,
+        "action": "Registrar em log"
+      },
+      "restockWatch": {
+        "9339432a-8103-4424-bb6c-1f86d111c5a5:420f655c-a20c-4db7-9e51-7b647faa5ada": [
+          "1516834021718360104"
+        ]
+      }
+    },
+    "1529681264767012946": {
+      "currency": "BRL",
+      "locale": "pt_BR",
+      "products": [
+        {
+          "name": "Nitradas",
+          "description": "Contas Nitradas",
+          "autoDelivery": true,
+          "icon": "",
+          "banner": "",
+          "id": "dece9f6e-2e08-4923-8074-71462a0ac4d9",
+          "fields": [
+            {
+              "id": "bcb6cfbd-5aeb-49e3-ade6-ec34ac9747a1",
+              "name": "Nitrada Mensal",
+              "description": "1 Mes de nitro",
+              "price": 2,
+              "stock": [],
+              "ghostStock": null,
+              "infinite": {
+                "enabled": false,
+                "text": ""
+              },
+              "instructions": {
+                "enabled": false,
+                "description": ""
+              },
+              "emoji": "<:grifernitro:1529852812983275608>",
+              "addRole": "1529853014284832819"
+            },
+            {
+              "id": "2d6883fd-a9e2-4e56-bdd1-dcb953daecdc",
+              "name": "Nitrada Trimensal",
+              "description": "3 Messes de nitro",
+              "price": 4,
+              "stock": [],
+              "ghostStock": null,
+              "infinite": {
+                "enabled": false,
+                "text": ""
+              },
+              "instructions": {
+                "enabled": false,
+                "description": ""
+              },
+              "addRole": "1529853014284832819"
+            }
+          ],
+          "coupons": [],
+          "salesMessage": {
+            "channelId": "1529700305128919150",
+            "messageId": "1529856175397535836"
+          },
+          "saleEmoji": "<:grifernitro:1529852812983275608>",
+          "saleLabel": "Comprar",
+          "saleColor": "#FFFFFF",
+          "saleStyle": "Cinza"
+        }
+      ],
+      "channels": {
+        "orderLogs": "1529848887903391794",
+        "publicPurchases": "1529848889983897783",
+        "welcome": "1529848892257210520",
+        "system": "1529848894618468524",
+        "entries": "1529848896459903159",
+        "exits": "1529848898464649307",
+        "messages": "1529848900985290912",
+        "voiceTraffic": "1529848903355203625",
+        "feedback": "1529848906165522632",
+        "tickets": "1529848908149424359",
+        "notify": "1529848910540181835",
+        "stockRequests": "1529848913228464328"
+      },
+      "roles": {
+        "client": null,
+        "staff": null,
+        "manager": null,
+        "notify": null
+      },
+      "payments": {
+        "manual": {
+          "enabled": false,
+          "configured": true,
+          "pixKey": "suachavepix@gmail.com",
+          "keyType": "Não definido",
+          "message": "Após o pagamento envie o comprovante"
+        },
+        "efi": {
+          "enabled": false,
+          "configured": false,
+          "clientId": "",
+          "clientSecret": "",
+          "pixKey": "",
+          "certificate": "",
+          "sandbox": false
+        },
+        "mercadoPago": {
+          "enabled": false,
+          "configured": false,
+          "accessToken": "",
+          "publicKey": ""
+        },
+        "zenWallet": {
+          "enabled": false,
+          "configured": true
+        },
+        "nubank": {
+          "enabled": false,
+          "configured": false
+        },
+        "pushinpay": {
+          "enabled": false,
+          "configured": false
+        },
+        "litecoin": {
+          "enabled": false,
+          "configured": false
+        },
+        "interImap": {
+          "enabled": false,
+          "configured": false,
+          "email": "",
+          "password": "",
+          "pixKey": "",
+          "host": "imap.gmail.com",
+          "port": 993,
+          "secure": true,
+          "allowedSender": "",
+          "usedUids": []
+        },
+        "nubankImap": {
+          "enabled": false,
+          "configured": false,
+          "email": "",
+          "password": "",
+          "pixKey": "",
+          "host": "imap.gmail.com",
+          "port": 993,
+          "secure": true,
+          "allowedSender": "",
+          "usedUids": []
+        }
+      },
+      "welcome": {
+        "enabled": true,
+        "embed": false,
+        "autoDeleteSeconds": 5,
+        "message": "Olá {member} gaste todo seu dinheiro na loja!",
+        "image": "",
+        "color": "#2b2d31",
+        "title": "Bem-vindo(a)!"
+      },
+      "ticket": {
+        "configured": true,
+        "openMode": "Canal Privado",
+        "messageMode": "Container V2",
+        "title": "Central de Atendimento | Flow Fornecimentos",
+        "description": "Após solicitar um atendimento, aguarde um integrante da equipe responde-lo(a). O atendimento é realizado de forma privada, contudo, somente integrantes da equipe terá acesso ao atendimento. Tenha ciência que a nossa equipe não se encontra presente 24 horas por dia, contudo, dentro dos horários citados acima nossa equipe se encontra disponibilizada a atende-lo(a).",
+        "banner": "",
+        "color": "#FFFFFF",
+        "functions": [
+          {
+            "id": "support",
+            "name": "Suporte",
+            "preDescription": "Preciso de suporte",
+            "description": "Atendimento geral",
+            "emoji": "📋",
+            "banner": "",
+            "purchaseDetection": true
+          },
+          {
+            "id": "ac7b8b67-c47a-4d3c-b49d-8c8413cad0f8",
+            "name": "Duvidas",
+            "preDescription": "Tire duvidas",
+            "description": "",
+            "banner": "",
+            "emoji": "📋",
+            "purchaseDetection": true
+          }
+        ],
+        "hoursEnabled": false,
+        "allowOutsideHours": true,
+        "hoursByDay": [
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          }
+        ],
+        "postedMessages": [
+          {
+            "channelId": "1529701300617613312",
+            "messageId": "1529867753627062443"
+          }
+        ]
+      },
+      "automations": {
+        "repost": {
+          "enabled": true,
+          "nuke": false,
+          "time": "09:00"
+        },
+        "messages": {
+          "enabled": true,
+          "items": [
+            {
+              "content": "Ajude nosso servidor deixando seu feedback positivo para a gente",
+              "intervalMinutes": 10,
+              "image": "",
+              "mode": "embed",
+              "color": "#ffffff",
+              "id": "msg_mrxlzo0e_j88ty",
+              "channelId": "1529699503681179665",
+              "lastSentAt": 1784844890020,
+              "lastMessageId": "1529975096654172312",
+              "lastChannelId": "1529699503681179665",
+              "nextRunAt": 1784845490020,
+              "buttons": []
+            }
+          ]
+        },
+        "cleanup": {
+          "enabled": false,
+          "rules": []
+        },
+        "feedback": {
+          "enabled": true,
+          "channel": null,
+          "reactionEmoji": "<a:impulsos:1529858054621757531>",
+          "channels": []
+        },
+        "lock": {
+          "enabled": false,
+          "rules": []
+        },
+        "invite": {
+          "enabled": false,
+          "logChannel": null,
+          "rewards": [],
+          "countFake": false,
+          "minimumAccountDays": 7
+        },
+        "restock": {
+          "enabled": false,
+          "channel": null,
+          "mention": "none",
+          "role": null,
+          "sentCount": 0
+        }
+      },
+      "balance": {
+        "enabled": false,
+        "users": {},
+        "history": []
+      },
+      "positions": [
+        {
+          "index": 1,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 2,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 3,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 4,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 5,
+          "roleId": null,
+          "amount": null
+        }
+      ],
+      "badges": [],
+      "badgeSettings": {
+        "enabled": false,
+        "dm": true,
+        "announcements": false,
+        "announcementChannel": null,
+        "display": true
+      },
+      "tempRoles": [],
+      "tempRoleSettings": {
+        "enabled": false,
+        "removeExpired": true,
+        "notifyDm": true
+      },
+      "storeOauth": {
+        "required": false
+      },
+      "emojis": {
+        "synced": {
+          "2904notifymember": "1529852585295741029",
+          "account": "1529852586398580838",
+          "Aceitar": "1529852588105928864",
+          "activity": "1529852591964688464",
+          "Arrow": "1529852593432432861",
+          "banco2": "1529852594829267056",
+          "carrinhoZend": "1529852595966054461",
+          "celebration": "1529852597224345813",
+          "check": "1529852598667186277",
+          "clock": "1529852599866753095",
+          "cloud": "1529852602207043594",
+          "copicola": "1529852603595227240",
+          "cpfnanotaeolhela": "1529852605159706785",
+          "delete": "1529852606275387475",
+          "ea1": "1529852607668027463",
+          "ea2": "1529852608875987125",
+          "ea3": "1529852610058915920",
+          "ea4": "1529852611166077108",
+          "ea5": "1529852612319383683",
+          "ea6": "1529852613779001406",
+          "ea7": "1529852615091818640",
+          "ea8": "1529852616358760610",
+          "Editar": "1529852617130246165",
+          "editestoque": "1529852619131060380",
+          "efi": "1529852620414386328",
+          "entregaSucess": "1529852621677006980",
+          "folder": "1529852622805401691",
+          "forum": "1529852624155836476",
+          "genesisClock": "1529852625368121566",
+          "genesisNoC": "1529852626739527731",
+          "genesisTicket": "1529852627968331888",
+          "genesisVerifieldDuo": "1529852629381943367",
+          "genesisYes": "1529852630744957069",
+          "hearth": "1529852631978344518",
+          "icons8carrinhodecomprascarregado": "1529852633324585202",
+          "imp_llitecoin": "1529852634524160090",
+          "imp_mercadopago": "1529852636004618250",
+          "infogenesiss": "1529852637539860572",
+          "left": "1529852638542430361",
+          "lightning": "1529852640383598592",
+          "litecoinemojidocalai": "1529852641868386435",
+          "lixeiraRed": "1529852642824683662",
+          "loadinggenesiss": "1529852644523511818",
+          "lockEmoji": "1529852645957701754",
+          "p7dro_pix": "1529852647220183050",
+          "Pix": "1529852648415821834",
+          "plus": "1529852649703473338",
+          "pushInPay": "1529852651150250106",
+          "receipt": "1529852652001955851",
+          "refresh": "1529852655655059758",
+          "role": "1529852660403015760",
+          "roller": "1529852662059765871",
+          "Secured": "1529852663288693017",
+          "setaAnimada": "1529852664815419442",
+          "settings": "1529852666677559418",
+          "Sincronizar": "1529852668254621828",
+          "sparks": "1529852669580017684",
+          "store": "1529852670796501063",
+          "support": "1529852671866044506",
+          "syncMessages": "1529852673006768239",
+          "textc": "1529852674462322882",
+          "Ticket": "1529852676232446032",
+          "title": "1529852677536616730",
+          "trashcan": "1529852678862143550",
+          "unlockEmoji": "1529852681055768576",
+          "upload": "1529852682603331646",
+          "url": "1529852683932930058",
+          "users": "1529852685220712458",
+          "verifieldgenesiss": "1529852687020068884",
+          "visible": "1529852692141309962",
+          "wallet": "1529852693806448660",
+          "welcome": "1529852694955561060",
+          "yesgenesiss": "1529852696008327222",
+          "zendBackupEmoji": "1529852697132400640",
+          "zendCart": "1529852698080313475",
+          "zendGiveaway": "1529852699716096050",
+          "zendMemberGr": "1529852701406396567",
+          "zendPay": "1529852702404644905",
+          "interBank": "1529867218052186183",
+          "nubankBank": "1529867219562004571"
+        },
+        "animated": {
+          "2904notifymember": false,
+          "account": false,
+          "Aceitar": false,
+          "activity": false,
+          "Arrow": false,
+          "banco2": false,
+          "carrinhoZend": false,
+          "celebration": true,
+          "check": false,
+          "clock": false,
+          "cloud": false,
+          "copicola": false,
+          "cpfnanotaeolhela": false,
+          "delete": false,
+          "ea1": false,
+          "ea2": false,
+          "ea3": false,
+          "ea4": false,
+          "ea5": false,
+          "ea6": false,
+          "ea7": false,
+          "ea8": false,
+          "Editar": false,
+          "editestoque": false,
+          "efi": false,
+          "entregaSucess": false,
+          "folder": false,
+          "forum": false,
+          "genesisClock": false,
+          "genesisNoC": false,
+          "genesisTicket": false,
+          "genesisVerifieldDuo": false,
+          "genesisYes": false,
+          "hearth": false,
+          "icons8carrinhodecomprascarregado": false,
+          "imp_llitecoin": false,
+          "imp_mercadopago": false,
+          "infogenesiss": false,
+          "left": false,
+          "lightning": false,
+          "litecoinemojidocalai": false,
+          "lixeiraRed": false,
+          "loadinggenesiss": true,
+          "lockEmoji": false,
+          "p7dro_pix": false,
+          "Pix": false,
+          "plus": false,
+          "pushInPay": false,
+          "receipt": false,
+          "refresh": true,
+          "role": false,
+          "roller": false,
+          "Secured": false,
+          "setaAnimada": true,
+          "settings": false,
+          "Sincronizar": false,
+          "sparks": false,
+          "store": false,
+          "support": false,
+          "syncMessages": false,
+          "textc": false,
+          "Ticket": false,
+          "title": false,
+          "trashcan": false,
+          "unlockEmoji": false,
+          "upload": false,
+          "url": false,
+          "users": false,
+          "verifieldgenesiss": false,
+          "visible": false,
+          "wallet": false,
+          "welcome": false,
+          "yesgenesiss": false,
+          "zendBackupEmoji": false,
+          "zendCart": false,
+          "zendGiveaway": true,
+          "zendMemberGr": false,
+          "zendPay": false,
+          "interBank": false,
+          "nubankBank": false
+        },
+        "lastSyncAt": 1784819384091,
+        "scope": "application"
+      },
+      "customization": {
+        "colors": {
+          "default": "#FFFFFF",
+          "processing": "#fcba03",
+          "success": "#39fc03",
+          "error": "#ff0000",
+          "finished": "#7363ff"
+        },
+        "bot": {
+          "nickname": "",
+          "avatar": "",
+          "banner": "",
+          "status": "Online",
+          "status1": "",
+          "status2": ""
+        },
+        "brand": {
+          "qrLogo": "",
+          "qrColor": "#111827"
+        },
+        "publicLog": {
+          "enabled": false,
+          "v2": true,
+          "image": "",
+          "showBuy": true,
+          "showFeedback": true
+        },
+        "feedbackDm": {
+          "message": "{saudacao} {usuario}. Se você curtiu sua compra, **que tal deixar uma avaliação?** Isso nos motiva, ajuda quem está em dúvida e ainda contribui para que a gente continue oferecendo serviços cada vez melhores pra você! 😊.",
+          "buttonText": "Clique aqui e deixe seu feedback ;)",
+          "delaySeconds": 120
+        },
+        "productMessages": {
+          "v2": false,
+          "sideColor": ""
+        }
+      },
+      "stats": {
+        "salesToday": 0,
+        "salesTotal": 0,
+        "countToday": 0,
+        "countTotal": 0
+      },
+      "purchases": [],
+      "giveaways": [],
+      "carts": [],
+      "cartSequence": 0,
+      "cartSettings": {
+        "expirationMinutes": 30
+      },
+      "invitations": {},
+      "subscriptions": [],
+      "stockRequests": [],
+      "tickets": [
+        {
+          "id": "56b23a53-0275-4cd8-9196-b06411737192",
+          "userId": "1140596101850861599",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1784819319901,
+          "channelId": "1529867850649436184",
+          "assignedTo": null,
+          "guildId": "1529681264767012946",
+          "initialMessageId": "1529867853279268968",
+          "closedAt": 1784819326887,
+          "closedBy": "1140596101850861599",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 56b23a53-0275-4cd8-9196-b06411737192\n Usuário: 1140596101850861599\n Fechado: 23/07/2026, 12:08:46\n══════════════════════════════════\n\n[23/07/2026, 12:08:39] Flowzada#1362:\n@profitmaxxing\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1529867881293287605/1529867894987427984/transcript-56b23a53-027.txt?ex=6a638001&is=6a622e81&hm=ac0c269f6314bfcd022148b279177ef6067bb3cba6aeb1eadde355cd5f4635b5&"
+        }
+      ],
+      "cloud": {
+        "linked": false,
+        "syncedMembers": null,
+        "serverId": null,
+        "verifiedRoleId": null,
+        "webhookUrl": null
+      },
+      "protect": {
+        "moderation": false,
+        "antiraid": false,
+        "antiSpam": false,
+        "antiLinks": false,
+        "antiMassMention": false,
+        "logChannel": null,
+        "raidLimit": 8,
+        "raidWindowSeconds": 10,
+        "raidPunishment": "Bloquear entradas temporariamente",
+        "selfBot": {
+          "enabled": false,
+          "logChannel": null,
+          "limit": 4
+        },
+        "antiInvite": {
+          "enabled": false,
+          "logChannel": null,
+          "whitelistRoles": []
+        }
+      },
+      "antiFake": {
+        "enabled": false,
+        "minimumAccountDays": 7,
+        "action": "Registrar em log"
+      },
+      "botAdmins": [
+        "1140596101850861599"
+      ]
+    },
+    "1522102684176351333": {
+      "currency": "BRL",
+      "locale": "pt_BR",
+      "botAdmins": [],
+      "products": [
+        {
+          "name": "Chat Gpt Plus",
+          "description": "1 Mês de chat gpt plus",
+          "autoDelivery": true,
+          "icon": "",
+          "banner": "",
+          "id": "1611ecca-3e85-430e-bc39-b35baf72d61a",
+          "fields": [
+            {
+              "id": "32fc9f03-c1e3-4c22-9f84-049ce34da1eb",
+              "name": "Chat gpt Plus - Nfa",
+              "description": "Conta Compartilhada",
+              "price": 4,
+              "stock": [],
+              "ghostStock": {
+                "quantity": 99,
+                "value": "abrir ticket"
+              },
+              "infinite": {
+                "enabled": false,
+                "text": ""
+              },
+              "instructions": {
+                "enabled": false,
+                "description": ""
+              },
+              "lastRestock": 1785716711679
+            },
+            {
+              "id": "354424e5-dc6a-4c1d-8803-0ec67e9e83b2",
+              "name": "Chat gpt plus - FA",
+              "description": "Conta full acesso",
+              "price": 10,
+              "stock": [],
+              "ghostStock": null,
+              "infinite": {
+                "enabled": false,
+                "text": ""
+              },
+              "instructions": {
+                "enabled": false,
+                "description": ""
+              }
+            }
+          ],
+          "coupons": [],
+          "salesMessage": {
+            "channelId": "1532879654640160828",
+            "messageId": "1533633606071750738"
+          },
+          "saleColor": "#FFFFFF",
+          "saleEmoji": "🛒",
+          "saleLabel": "Comprar",
+          "saleStyle": "Azul"
+        }
+      ],
+      "channels": {
+        "orderLogs": "1532879654640160828",
+        "publicPurchases": "1532879654640160828",
+        "welcome": null,
+        "system": null,
+        "entries": null,
+        "exits": null,
+        "messages": null,
+        "voiceTraffic": null,
+        "feedback": null,
+        "tickets": "1533599648877379747",
+        "notify": null,
+        "stockRequests": null
+      },
+      "roles": {
+        "client": null,
+        "staff": "1534021583402958928",
+        "manager": "1533666993616715826",
+        "notify": "1531987447645343744"
+      },
+      "payments": {
+        "manual": {
+          "enabled": true,
+          "configured": true,
+          "pixKey": "lucasdasilva@gmail.com",
+          "keyType": "email",
+          "message": "Após o pagamento envie o comprovante"
+        },
+        "efi": {
+          "enabled": false,
+          "configured": false,
+          "clientId": "",
+          "clientSecret": "",
+          "pixKey": "",
+          "certificate": "",
+          "sandbox": false
+        },
+        "interImap": {
+          "enabled": false,
+          "configured": false,
+          "email": "",
+          "password": "",
+          "pixKey": "",
+          "host": "imap.gmail.com",
+          "port": 993,
+          "secure": true,
+          "allowedSender": "",
+          "usedUids": []
+        },
+        "nubankImap": {
+          "enabled": false,
+          "configured": false,
+          "email": "",
+          "password": "",
+          "pixKey": "",
+          "host": "imap.gmail.com",
+          "port": 993,
+          "secure": true,
+          "allowedSender": "",
+          "usedUids": []
+        },
+        "mercadoPago": {
+          "enabled": false,
+          "configured": false,
+          "accessToken": "",
+          "publicKey": ""
+        },
+        "zenWallet": {
+          "enabled": false,
+          "configured": true
+        },
+        "nubank": {
+          "enabled": false,
+          "configured": false
+        },
+        "pushinpay": {
+          "enabled": false,
+          "configured": false
+        },
+        "litecoin": {
+          "enabled": false,
+          "configured": false
+        },
+        "evopay": {
+          "enabled": false,
+          "configured": false,
+          "apiKey": ""
+        },
+        "misticpay": {
+          "enabled": false,
+          "configured": false,
+          "clientId": "",
+          "clientSecret": ""
+        }
+      },
+      "welcome": {
+        "enabled": true,
+        "embed": false,
+        "autoDeleteSeconds": 5,
+        "message": "Olá {member} gaste todo seu dinheiro na loja!",
+        "image": "",
+        "color": "#2b2d31",
+        "title": "Bem-vindo(a)!"
+      },
+      "ticket": {
+        "configured": true,
+        "openMode": "Thread Privada",
+        "messageMode": "Container V2",
+        "title": "Central de Atendimento | Flow Leaks",
+        "description": "Após solicitar um atendimento, aguarde um integrante da equipe responde-lo(a). O atendimento é realizado de forma privada, contudo, somente integrantes da equipe terá acesso ao atendimento. Tenha ciência que a nossa equipe não se encontra presente 24 horas por dia, contudo, dentro dos horários citados acima nossa equipe se encontra disponibilizada a atende-lo(a).",
+        "banner": "https://cdn.discordapp.com/attachments/1533855487081185501/1534123773865889922/67b76d1aa67bcf83.jpg?ex=6a72fb9a&is=6a71aa1a&hm=55a35aafcfd3ef2e2d6f72b1e14d02797176f70d63e4c8104ea3be831a14ed51",
+        "color": "#FFFFFF",
+        "functions": [
+          {
+            "id": "support",
+            "name": "Suporte",
+            "preDescription": "Preciso de suporte",
+            "description": "Atendimento geral",
+            "emoji": "📋",
+            "banner": "",
+            "purchaseDetection": true
+          },
+          {
+            "id": "3e27d126-17b8-4323-916b-af6ef36161f6",
+            "name": "Duvidas",
+            "preDescription": "Tire dúvidas do servidor",
+            "description": "",
+            "banner": "",
+            "emoji": "1526072756897185893",
+            "purchaseDetection": true
+          }
+        ],
+        "hoursEnabled": false,
+        "allowOutsideHours": true,
+        "hoursByDay": [
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          }
+        ],
+        "postedMessages": [
+          {
+            "channelId": "1531988094364942366",
+            "messageId": "1533551170780532847"
+          },
+          {
+            "channelId": "1533855487081185501",
+            "messageId": "1534123976228470836"
+          }
+        ]
+      },
+      "automations": {
+        "repost": {
+          "enabled": true,
+          "nuke": false,
+          "time": "09:00"
+        },
+        "messages": {
+          "enabled": false,
+          "items": []
+        },
+        "cleanup": {
+          "enabled": false,
+          "rules": []
+        },
+        "feedback": {
+          "enabled": false,
+          "channel": null,
+          "reactionEmoji": "🫡",
+          "channels": []
+        },
+        "lock": {
+          "enabled": false,
+          "rules": []
+        },
+        "invite": {
+          "enabled": false,
+          "logChannel": null,
+          "rewards": [],
+          "countFake": false,
+          "minimumAccountDays": 7
+        },
+        "restock": {
+          "enabled": false,
+          "channel": null,
+          "mention": "none",
+          "role": null,
+          "sentCount": 0
+        }
+      },
+      "balance": {
+        "enabled": false,
+        "users": {
+          "833855053890715681": {
+            "id": "833855053890715681",
+            "tag": "veram",
+            "balance": 0,
+            "spent": 4,
+            "badges": [],
+            "history": []
+          }
+        },
+        "history": []
+      },
+      "positions": [
+        {
+          "index": 1,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 2,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 3,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 4,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 5,
+          "roleId": null,
+          "amount": null
+        }
+      ],
+      "badges": [],
+      "badgeSettings": {
+        "enabled": false,
+        "dm": true,
+        "announcements": false,
+        "announcementChannel": null,
+        "display": true
+      },
+      "tempRoles": [],
+      "tempRoleSettings": {
+        "enabled": false,
+        "removeExpired": true,
+        "notifyDm": true
+      },
+      "storeOauth": {
+        "required": false
+      },
+      "emojis": {
+        "synced": {
+          "2904notifymember": "1533546882045841470",
+          "account": "1533546884197650702",
+          "Aceitar": "1533546885539823777",
+          "activity": "1533546887460819015",
+          "Arrow": "1533546888786088059",
+          "banco2": "1533546890153689260",
+          "carrinhoZend": "1533546892145983630",
+          "celebration": "1533546894469369917",
+          "check": "1533546895681650709",
+          "clock": "1533546896294154363",
+          "cloud": "1533546897929666660",
+          "copicola": "1533546900077412407",
+          "cpfnanotaeolhela": "1533546901713195008",
+          "delete": "1533546903139123370",
+          "ea1": "1533546904858661144",
+          "ea2": "1533546906259558550",
+          "ea3": "1533546907643941005",
+          "ea4": "1533546908939976864",
+          "ea5": "1533546910059593838",
+          "ea6": "1533546911426940938",
+          "ea7": "1533546912739885106",
+          "ea8": "1533546914648162334",
+          "Editar": "1533546915885613327",
+          "editestoque": "1533546917198430259",
+          "efi": "1533546918175707197",
+          "entregaSucess": "1533546919878725825",
+          "folder": "1533546922063691958",
+          "forum": "1533546923624108072",
+          "genesisClock": "1533546925314412714",
+          "genesisNoC": "1533546928220930128",
+          "genesisTicket": "1533546929663906033",
+          "genesisVerifieldDuo": "1533546933245706310",
+          "genesisYes": "1533546935569617110",
+          "hearth": "1533546937456918679",
+          "icons8carrinhodecomprascarregado": "1533546938660683876",
+          "imp_llitecoin": "1533546940070101294",
+          "imp_mercadopago": "1533546940912894248",
+          "infogenesiss": "1533546942385098865",
+          "interBank": "1533546943765024919",
+          "left": "1533546945048740053",
+          "lightning": "1533546946760015882",
+          "litecoinemojidocalai": "1533546948001534174",
+          "lixeiraRed": "1533546949398233289",
+          "loadinggenesiss": "1533546950883016878",
+          "lockEmoji": "1533546952262942741",
+          "nubankBank": "1533546953688879246",
+          "p7dro_pix": "1533546954829594805",
+          "Pix": "1533546956000071721",
+          "plus": "1533546957224804424",
+          "pushInPay": "1533546958550077521",
+          "receipt": "1533546959896313856",
+          "refresh": "1533546961251340350",
+          "role": "1533546962723536936",
+          "roller": "1533546963545362503",
+          "Secured": "1533546964740739174",
+          "setaAnimada": "1533546966154350820",
+          "settings": "1533546967735599148",
+          "Sincronizar": "1533546969463521392",
+          "sparks": "1533546970562429031",
+          "store": "1533546972018114691",
+          "support": "1533546973196587211",
+          "syncMessages": "1533546974354346196",
+          "textc": "1533546975448924200",
+          "Ticket": "1533546976677728366",
+          "title": "1533546977718173786",
+          "trashcan": "1533546978770812982",
+          "unlockEmoji": "1533546980280631336",
+          "upload": "1533546981534732438",
+          "url": "1533546982658805791",
+          "users": "1533546984470745139",
+          "verifieldgenesiss": "1533546985444085923",
+          "visible": "1533546986895052980",
+          "wallet": "1533546988312989807",
+          "welcome": "1533546989415956550",
+          "yesgenesiss": "1533546990284050514",
+          "zendBackupEmoji": "1533546991412445388",
+          "zendCart": "1533546992821600609",
+          "zendGiveaway": "1533546993727832146",
+          "zendMemberGr": "1533546995250102433",
+          "zendPay": "1533546996625838132"
+        },
+        "animated": {
+          "2904notifymember": false,
+          "account": false,
+          "Aceitar": false,
+          "activity": false,
+          "Arrow": false,
+          "banco2": false,
+          "carrinhoZend": false,
+          "celebration": true,
+          "check": false,
+          "clock": false,
+          "cloud": false,
+          "copicola": false,
+          "cpfnanotaeolhela": false,
+          "delete": false,
+          "ea1": false,
+          "ea2": false,
+          "ea3": false,
+          "ea4": false,
+          "ea5": false,
+          "ea6": false,
+          "ea7": false,
+          "ea8": false,
+          "Editar": false,
+          "editestoque": false,
+          "efi": false,
+          "entregaSucess": false,
+          "folder": false,
+          "forum": false,
+          "genesisClock": false,
+          "genesisNoC": false,
+          "genesisTicket": false,
+          "genesisVerifieldDuo": false,
+          "genesisYes": false,
+          "hearth": false,
+          "icons8carrinhodecomprascarregado": false,
+          "imp_llitecoin": false,
+          "imp_mercadopago": false,
+          "infogenesiss": false,
+          "interBank": false,
+          "left": false,
+          "lightning": false,
+          "litecoinemojidocalai": false,
+          "lixeiraRed": false,
+          "loadinggenesiss": true,
+          "lockEmoji": false,
+          "nubankBank": false,
+          "p7dro_pix": false,
+          "Pix": false,
+          "plus": false,
+          "pushInPay": false,
+          "receipt": false,
+          "refresh": true,
+          "role": false,
+          "roller": false,
+          "Secured": false,
+          "setaAnimada": true,
+          "settings": false,
+          "Sincronizar": false,
+          "sparks": false,
+          "store": false,
+          "support": false,
+          "syncMessages": false,
+          "textc": false,
+          "Ticket": false,
+          "title": false,
+          "trashcan": false,
+          "unlockEmoji": false,
+          "upload": false,
+          "url": false,
+          "users": false,
+          "verifieldgenesiss": false,
+          "visible": false,
+          "wallet": false,
+          "welcome": false,
+          "yesgenesiss": false,
+          "zendBackupEmoji": false,
+          "zendCart": false,
+          "zendGiveaway": true,
+          "zendMemberGr": false,
+          "zendPay": false
+        },
+        "lastSyncAt": 1785719173856,
+        "scope": "application"
+      },
+      "customization": {
+        "colors": {
+          "default": "#FFFFFF",
+          "processing": "#fcba03",
+          "success": "#39fc03",
+          "error": "#ff0000",
+          "finished": "#7363ff"
+        },
+        "bot": {
+          "nickname": "",
+          "avatar": "https://cdn.discordapp.com/attachments/1533338805799489739/1533548046971830464/IMG_2249.jpg?ex=6a70e36a&is=6a6f91ea&hm=8879e067077d0bd4d2febf06fb777f4621eaa860dba3ba43deecd181468afe76&",
+          "banner": "",
+          "status": "Online",
+          "status1": "Flow Vazamentos",
+          "status2": ".gg/flowvazamentos"
+        },
+        "brand": {
+          "qrLogo": "",
+          "qrColor": "#111827"
+        },
+        "publicLog": {
+          "enabled": false,
+          "v2": true,
+          "image": "",
+          "showBuy": true,
+          "showFeedback": true
+        },
+        "feedbackDm": {
+          "message": "{saudacao} {usuario}. Se você curtiu sua compra, **que tal deixar uma avaliação?** Isso nos motiva, ajuda quem está em dúvida e ainda contribui para que a gente continue oferecendo serviços cada vez melhores pra você! 😊.",
+          "buttonText": "Clique aqui e deixe seu feedback ;)",
+          "delaySeconds": 120
+        },
+        "productMessages": {
+          "v2": false,
+          "sideColor": ""
+        }
+      },
+      "stats": {
+        "salesToday": 4,
+        "salesTotal": 4,
+        "countToday": 1,
+        "countTotal": 1
+      },
+      "purchases": [
+        {
+          "id": "4492c778-eccc-4b00-90fe-6d2d53b5b7bf",
+          "cartId": "51818613-3dcd-4013-8c94-9d20925238a2",
+          "publicId": "ZEND-00001",
+          "userId": "833855053890715681",
+          "productId": "1611ecca-3e85-430e-bc39-b35baf72d61a",
+          "fieldId": "32fc9f03-c1e3-4c22-9f84-049ce34da1eb",
+          "product": "Chat Gpt Plus • Chat gpt Plus - Nfa",
+          "quantity": 1,
+          "subtotal": 4,
+          "discount": 0,
+          "amount": 4,
+          "couponCode": null,
+          "paymentMethod": "Pagamento Manual",
+          "at": 1785717500940,
+          "status": "DELIVERED"
+        }
+      ],
+      "giveaways": [],
+      "carts": [
+        {
+          "id": "51818613-3dcd-4013-8c94-9d20925238a2",
+          "publicId": "ZEND-00001",
+          "userId": "833855053890715681",
+          "userTag": "veram",
+          "userName": "veram",
+          "userAvatar": "https://cdn.discordapp.com/avatars/833855053890715681/7fe24a874706af40e572bb2cb97ef08f.webp?size=128",
+          "productId": "1611ecca-3e85-430e-bc39-b35baf72d61a",
+          "fieldId": "32fc9f03-c1e3-4c22-9f84-049ce34da1eb",
+          "quantity": 1,
+          "couponCode": null,
+          "paymentMethod": "Pagamento Manual",
+          "status": "DELIVERED",
+          "createdAt": 1785717148201,
+          "updatedAt": 1785717261676,
+          "expiresAt": 1785718948201,
+          "channelId": "1533633618856116264",
+          "messageId": "1533634101876228298",
+          "proof": null,
+          "processing": false,
+          "subtotal": 4,
+          "discountPercent": 0,
+          "discount": 0,
+          "total": 4,
+          "requestLogSent": true,
+          "orderId": "AM_5df6f733-db97-47d1-a1e6-b7a54135245e",
+          "approvedAt": 1785717500940,
+          "deliveredAt": 1785717500940,
+          "approvedBy": "833855053890715681",
+          "delivery": [
+            "abrir ticket"
+          ],
+          "manualApprovalLogSent": true,
+          "deliveredItems": [
+            "abrir ticket"
+          ],
+          "deliveryLogSent": true
+        }
+      ],
+      "cartSequence": 1,
+      "cartSettings": {
+        "expirationMinutes": 30
+      },
+      "invitations": {},
+      "subscriptions": [],
+      "stockRequests": [],
+      "tickets": [
+        {
+          "id": "f091fc2e-5e0c-4675-84a7-a055a5b82e06",
+          "userId": "1452663473531260938",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785697501835,
+          "channelId": "1533551225574789161",
+          "assignedTo": null,
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533551229702115429",
+          "closedAt": 1785697521663,
+          "closedBy": "1452663473531260938",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: f091fc2e-5e0c-4675-84a7-a055a5b82e06\n Usuário: 1452663473531260938\n Fechado: 02/08/2026, 16:05:21\n══════════════════════════════════\n\n[02/08/2026, 16:05:05] FlowApps#7097:\n@luke\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533551310270628011/1533551317903999066/transcript-f091fc2e-5e0.txt?ex=6a70e676&is=6a6f94f6&hm=4e049bfa5b3393e01a8d7ac8d4fd642c60999254a1d0450fb2bd31862ff703aa&"
+        },
+        {
+          "id": "75b5bd0f-dfb8-4086-8202-418a81001921",
+          "userId": "833855053890715681",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785697502716,
+          "channelId": "1533551229202989248",
+          "assignedTo": null,
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533551232009113672",
+          "closedAt": 1785697522942,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 75b5bd0f-dfb8-4086-8202-418a81001921\n Usuário: 833855053890715681\n Fechado: 02/08/2026, 16:05:22\n══════════════════════════════════\n\n[02/08/2026, 16:05:05] FlowApps#7097:\n@yuki\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533551315450331287/1533551320781422612/transcript-75b5bd0f-dfb.txt?ex=6a70e676&is=6a6f94f6&hm=0794a8ef83c2b520a73b4182bc7d8d598379d0e75a698c8ff19328ea9c9264c6&"
+        },
+        {
+          "id": "17996044-5edb-4e1a-b3f5-dc55d8e10baf",
+          "userId": "833855053890715681",
+          "functionId": "3e27d126-17b8-4323-916b-af6ef36161f6",
+          "functionName": "Duvidas",
+          "status": "archived",
+          "at": 1785697628740,
+          "channelId": "1533551757920047255",
+          "assignedTo": "1526570298743197766",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533551764631195828",
+          "claimedBy": "1526570298743197766",
+          "assignedAt": 1785697676808,
+          "closedAt": 1785697675935,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Duvidas\n ID: 17996044-5edb-4e1a-b3f5-dc55d8e10baf\n Usuário: 833855053890715681\n Fechado: 02/08/2026, 16:07:55\n══════════════════════════════════\n\n[02/08/2026, 16:07:12] FlowApps#7097:\n@yuki @staff @staff\n\n[02/08/2026, 16:07:31] veram:\nSó testando aqui\n\n[02/08/2026, 16:07:34] veram:\nSource da zend\n\n[02/08/2026, 16:07:37] veram:\nOs cara falou que tá com bug\n\n[02/08/2026, 16:07:42] veram:\nCuzin deles\n\n[02/08/2026, 16:07:45] veram:\nBagui tá clean\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533551315450331287/1533551957539553446/transcript-17996044-5ed.txt?ex=6a70e70e&is=6a6f958e&hm=6bbc4a77986a9ccdfa370bb108535ec1b40694b542604ec889320f56a08bd8e1&"
+        },
+        {
+          "id": "b41eb0dd-c88f-4ef1-8ecd-b616c9f6e908",
+          "userId": "1371203623681392758",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785697716578,
+          "channelId": "1533552126570266877",
+          "assignedTo": "1526570298743197766",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533552130156138666",
+          "claimedBy": "1526570298743197766",
+          "assignedAt": 1785697800883,
+          "closedAt": 1785697956694,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: b41eb0dd-c88f-4ef1-8ecd-b616c9f6e908\n Usuário: 1371203623681392758\n Fechado: 02/08/2026, 16:12:36\n══════════════════════════════════\n\n[02/08/2026, 16:08:39] FlowApps#7097:\n@KS13 @staff @staff\n\n[02/08/2026, 16:09:16] veram:\nKkkkkk\n\n[02/08/2026, 16:09:18] veram:\nVou arrumar\n\n[02/08/2026, 16:09:21] veram:\nPara de assumir ticket\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533552155213172853/1533553137137221683/transcript-b41eb0dd-c88.txt?ex=6a70e827&is=6a6f96a7&hm=15ac333d42e731910a9c269863636eb3c07eaa210315a322fb3c00f3af4f794d&"
+        },
+        {
+          "id": "2bff7e24-b1ad-4bcb-be64-a59d44f3e072",
+          "userId": "1324067578359844949",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785697936717,
+          "channelId": "1533553049463816275",
+          "assignedTo": "743886163064127519",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533553053817508012",
+          "claimedBy": "743886163064127519",
+          "assignedAt": 1785697943295,
+          "closedAt": 1785698001122,
+          "closedBy": "1530953217905528938",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 2bff7e24-b1ad-4bcb-be64-a59d44f3e072\n Usuário: 1324067578359844949\n Fechado: 02/08/2026, 16:13:21\n══════════════════════════════════\n\n[02/08/2026, 16:12:20] FlowApps#7097:\n@! Ayann @staff @staff\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533553077276250203/1533553324568346684/transcript-2bff7e24-b1a.txt?ex=6a70e854&is=6a6f96d4&hm=5d18aa5378e5384112dc0b2cfcaf8ae212bbc4ba9f319dbad20a021cf3a81950&"
+        },
+        {
+          "id": "b236f931-95c7-4bc3-a4f4-d04dc03b70d0",
+          "userId": "833855053890715681",
+          "functionId": "3e27d126-17b8-4323-916b-af6ef36161f6",
+          "functionName": "Duvidas",
+          "status": "archived",
+          "at": 1785698078289,
+          "channelId": "1533553643423268915",
+          "assignedTo": "1526570298743197766",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533553647559114913",
+          "claimedBy": "1526570298743197766",
+          "assignedAt": 1785698090847,
+          "closedAt": 1785698128297,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Duvidas\n ID: b236f931-95c7-4bc3-a4f4-d04dc03b70d0\n Usuário: 833855053890715681\n Fechado: 02/08/2026, 16:15:28\n══════════════════════════════════\n\n[02/08/2026, 16:14:41] FlowApps#7097:\n@yuki @staff @staff\n\n[02/08/2026, 16:14:59] veram:\nAlguém tenta assumir dnv\n\n[02/08/2026, 16:15:03] veram:\nPra ver se bugado ainda\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533551315450331287/1533553856712282214/transcript-b236f931-95c.txt?ex=6a70e8d3&is=6a6f9753&hm=f33df1e57e0d5c37cc1eef208bd81ba486bc3cc2aee80f9627e86e9956a12196&"
+        },
+        {
+          "id": "8ebb26ce-8bd3-4fec-8863-e1072cef3de4",
+          "userId": "1516850713890656336",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785698132040,
+          "channelId": "1533553868812587278",
+          "assignedTo": "1530953217905528938",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533553873669849218",
+          "claimedBy": "1530953217905528938",
+          "assignedAt": 1785698237760,
+          "closedAt": 1785698472263,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 8ebb26ce-8bd3-4fec-8863-e1072cef3de4\n Usuário: 1516850713890656336\n Fechado: 02/08/2026, 16:21:12\n══════════════════════════════════\n\n[02/08/2026, 16:15:35] FlowApps#7097:\n@OTAVIN </> @staff @staff\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533554312570081412/1533555300202844190/transcript-8ebb26ce-8bd.txt?ex=6a70ea2b&is=6a6f98ab&hm=f834ae87196e36935edd934fc5d3033b1f1c4a5f6a577b4fe2a271a3f2f0a94c&"
+        },
+        {
+          "id": "e225e229-263e-490b-8018-b3b4b109cbb1",
+          "userId": "1324067578359844949",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785698150221,
+          "channelId": "1533553944608112641",
+          "assignedTo": "743886163064127519",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533553947875348651",
+          "claimedBy": "743886163064127519",
+          "assignedAt": 1785698155707,
+          "updatedAt": 1785698155871,
+          "closedAt": 1785698175973,
+          "closedBy": "1324067578359844949",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: e225e229-263e-490b-8018-b3b4b109cbb1\n Usuário: 1324067578359844949\n Fechado: 02/08/2026, 16:16:15\n══════════════════════════════════\n\n[02/08/2026, 16:15:53] FlowApps#7097:\n@! Ayann @staff @staff\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533553077276250203/1533554054905467132/transcript-e225e229-263.txt?ex=6a70e902&is=6a6f9782&hm=b74dd6094ed7d966e060f0752bcd0bc58fd19fb4ecbe2de676ce50b4861fd6a3&"
+        },
+        {
+          "id": "4a9eb4ef-938e-4ce1-9cbe-16e701ab6154",
+          "userId": "1526570298743197766",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785698168965,
+          "channelId": "1533554023897239562",
+          "assignedTo": "1526570298743197766",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533554028376621096",
+          "claimedBy": "1526570298743197766",
+          "assignedAt": 1785698173582,
+          "closedAt": 1785698469336,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 4a9eb4ef-938e-4ce1-9cbe-16e701ab6154\n Usuário: 1526570298743197766\n Fechado: 02/08/2026, 16:21:09\n══════════════════════════════════\n\n[02/08/2026, 16:16:12] FlowApps#7097:\n@Shawnbanidoo @staff @staff\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533554042960220321/1533555287607345152/transcript-4a9eb4ef-938.txt?ex=6a70ea28&is=6a6f98a8&hm=c9b8fcaf76f74d81cfa5295cbf65342427663e3d9505f498bae8a2a4e399a137&"
+        },
+        {
+          "id": "81393004-8374-4f17-9b72-c6bec309167a",
+          "userId": "743886163064127519",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785698180969,
+          "channelId": "1533554074023366868",
+          "assignedTo": "1526570298743197766",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533554077298856087",
+          "claimedBy": "1526570298743197766",
+          "assignedAt": 1785698189336,
+          "closedAt": 1785698467393,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 81393004-8374-4f17-9b72-c6bec309167a\n Usuário: 743886163064127519\n Fechado: 02/08/2026, 16:21:07\n══════════════════════════════════\n\n[02/08/2026, 16:16:24] FlowApps#7097:\n@NOBRU APELUDO @staff @staff\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533554109288943848/1533555283803246744/transcript-81393004-837.txt?ex=6a70ea27&is=6a6f98a7&hm=1ab9bff2634bc724f01a5d91cf4d38488d9d26c34c9fcb862eba83911ad53994&"
+        },
+        {
+          "id": "3fa6a3dc-b2ce-4e9c-96f9-230f88123d4a",
+          "userId": "833855053890715681",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785698477694,
+          "channelId": "1533555318766964926",
+          "assignedTo": "1526570298743197766",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533555323162595398",
+          "claimedBy": "1526570298743197766",
+          "assignedAt": 1785698487416,
+          "closedAt": 1785699603576,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 3fa6a3dc-b2ce-4e9c-96f9-230f88123d4a\n Usuário: 833855053890715681\n Fechado: 02/08/2026, 16:40:03\n══════════════════════════════════\n\n[02/08/2026, 16:21:21] FlowApps#7097:\n@yuki @staff @staff\n\n[02/08/2026, 16:21:31] veram:\nEstão conseguindo falar no ticket?\n\n[02/08/2026, 16:21:40] veram:\nPrr\n\n[02/08/2026, 16:21:59] brazino777.com.br:\nolk\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533551315450331287/1533560043302031511/transcript-3fa6a3dc-b2c.txt?ex=6a70ee96&is=6a6f9d16&hm=94b16b866ddaf942990f34db6646495fb81698167a2c231d162cbb72f06258ac&"
+        },
+        {
+          "id": "8c4bbfe6-a6cf-4826-85ea-eabbe1fb6e3e",
+          "userId": "1318511699422216215",
+          "functionId": "3e27d126-17b8-4323-916b-af6ef36161f6",
+          "functionName": "Duvidas",
+          "status": "archived",
+          "at": 1785698529607,
+          "channelId": "1533555536468115537",
+          "assignedTo": "1530953217905528938",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533555540179943639",
+          "claimedBy": "1530953217905528938",
+          "assignedAt": 1785698549595,
+          "closedAt": 1785698562728,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Duvidas\n ID: 8c4bbfe6-a6cf-4826-85ea-eabbe1fb6e3e\n Usuário: 1318511699422216215\n Fechado: 02/08/2026, 16:22:42\n══════════════════════════════════\n\n[02/08/2026, 16:22:12] FlowApps#7097:\n@tears @staff @staff\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533555619766730936/1533555678122217743/transcript-8c4bbfe6-a6c.txt?ex=6a70ea85&is=6a6f9905&hm=6fd82717a2b8df939e7316715534b60649ae2391dc4fdf107cd20dce09dc9302&"
+        },
+        {
+          "id": "c08c7db1-898f-4ddf-bb1b-96b5b66d2b9a",
+          "userId": "1318511699422216215",
+          "functionId": "3e27d126-17b8-4323-916b-af6ef36161f6",
+          "functionName": "Duvidas",
+          "status": "archived",
+          "at": 1785698590285,
+          "channelId": "1533555790894596226",
+          "assignedTo": null,
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533555794572738570",
+          "closedAt": 1785699605869,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Duvidas\n ID: c08c7db1-898f-4ddf-bb1b-96b5b66d2b9a\n Usuário: 1318511699422216215\n Fechado: 02/08/2026, 16:40:05\n══════════════════════════════════\n\n[02/08/2026, 16:23:13] FlowApps#7097:\n@tears @staff @staff\n\n[02/08/2026, 16:23:53] veram:\nÉs fora\n\n[02/08/2026, 16:23:55] veram:\nE agora\n\n[02/08/2026, 16:23:58] veram:\nSeis consegue?\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533555619766730936/1533560056380129310/transcript-c08c7db1-898.txt?ex=6a70ee99&is=6a6f9d19&hm=6b22f0d73466bbf08bd54c3208b0a083c232215405f88945a3a859d49674c03c&"
+        },
+        {
+          "id": "5153cc6f-4de0-402b-b4ac-3d99215b3294",
+          "userId": "1213628745378824265",
+          "functionId": "3e27d126-17b8-4323-916b-af6ef36161f6",
+          "functionName": "Duvidas",
+          "status": "archived",
+          "at": 1785698716107,
+          "channelId": "1533556318718267614",
+          "assignedTo": null,
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533556322673623201",
+          "closedAt": 1785699608067,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Duvidas\n ID: 5153cc6f-4de0-402b-b4ac-3d99215b3294\n Usuário: 1213628745378824265\n Fechado: 02/08/2026, 16:40:08\n══════════════════════════════════\n\n[02/08/2026, 16:25:19] FlowApps#7097:\n@h4ke @staff @staff\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533560061723410474/1533560065473384629/transcript-5153cc6f-4de.txt?ex=6a70ee9b&is=6a6f9d1b&hm=7a3ea7303aa2200d2fc0951e9f3fc0563f0bcd882558f37d9d972eb44a1f02b6&"
+        },
+        {
+          "id": "9f717c59-5da8-4c7a-a8a3-6971a95d7a46",
+          "userId": "833855053890715681",
+          "functionId": "3e27d126-17b8-4323-916b-af6ef36161f6",
+          "functionName": "Duvidas",
+          "status": "archived",
+          "at": 1785699611392,
+          "channelId": "1533560073253556306",
+          "assignedTo": null,
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533560082405654639",
+          "closedAt": 1785699732726,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Duvidas\n ID: 9f717c59-5da8-4c7a-a8a3-6971a95d7a46\n Usuário: 833855053890715681\n Fechado: 02/08/2026, 16:42:12\n══════════════════════════════════\n\n[02/08/2026, 16:40:15] FlowApps#7097:\n@yuki @staff @staff\n\n[02/08/2026, 16:40:18] veram:\ne agr\n\n[02/08/2026, 16:40:20] veram:\nta dando\n\n[02/08/2026, 16:40:28] veram:\n?\n\n[02/08/2026, 16:41:07] santszzx2:\ns\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533551315450331287/1533560584279425216/transcript-9f717c59-5da.txt?ex=6a70ef17&is=6a6f9d97&hm=8b522951c8a7488a0e6b8777b42458b6d4375c82e93aba99edeb58a7ec78af91&"
+        },
+        {
+          "id": "402797b6-92f0-4df4-8dc4-c139e91e6081",
+          "userId": "1213628745378824265",
+          "functionId": "3e27d126-17b8-4323-916b-af6ef36161f6",
+          "functionName": "Duvidas",
+          "status": "archived",
+          "at": 1785699758015,
+          "channelId": "1533560688641970358",
+          "assignedTo": "1465810490277236926",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533560748318654464",
+          "claimedBy": "1465810490277236926",
+          "assignedAt": 1785699810612,
+          "updatedAt": 1785700296976,
+          "closedAt": 1785713556079,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Duvidas\n ID: 402797b6-92f0-4df4-8dc4-c139e91e6081\n Usuário: 1213628745378824265\n Fechado: 02/08/2026, 20:32:36\n══════════════════════════════════\n\n[02/08/2026, 16:42:53] uncharred:\no porr\n\n[02/08/2026, 16:42:54] FlowApps#7097:\n@h4ke @staff @staff\n\n[02/08/2026, 16:43:32] santszzx2:\nboa\n\n[02/08/2026, 16:43:33] uncharred:\nclona o bot bya yuki\n\n[02/08/2026, 16:43:42] santszzx2:\n@yuki\n\n[02/08/2026, 16:44:49] veram:\nQuando eu tiver tempo eu clono\n\n[02/08/2026, 16:45:20] uncharred:\ne se for pagando\n\n[02/08/2026, 16:45:25] uncharred:\ntu quer quanto pra clonar ele\n\n[02/08/2026, 16:45:28] uncharred:\nsó pra mim\n\n[02/08/2026, 16:47:49] uncharred:\n@yuki\n\n[02/08/2026, 16:48:08] veram:\nvish\n\n[02/08/2026, 16:48:15] veram:\nmeu valor e entre 100R$\n\n[02/08/2026, 16:48:19] veram:\nse consegue pagar\n\n[02/08/2026, 16:48:22] veram:\n?\n\n[02/08/2026, 19:18:03] brazino777.com.br:\n@h4ke\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533560061723410474/1533618554505658502/transcript-402797b6-92f.txt?ex=6a712514&is=6a6fd394&hm=2975f28d60cd6fd4285dc5dcd53e06f1271519ed56d2f03a2a2ccaa59383aac4&"
+        },
+        {
+          "id": "c8c4d294-7cd7-489b-97c8-fbff5eb02819",
+          "userId": "1528804786626101379",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785701330886,
+          "channelId": "1533567276916277368",
+          "assignedTo": "1526570298743197766",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533567278770032720",
+          "claimedBy": "1526570298743197766",
+          "assignedAt": 1785701347886,
+          "closedAt": 1785715620889,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: c8c4d294-7cd7-489b-97c8-fbff5eb02819\n Usuário: 1528804786626101379\n Fechado: 02/08/2026, 21:07:00\n══════════════════════════════════\n\n[02/08/2026, 17:08:51] FlowApps#7097:\n@Bia @staff @staff\n\n[02/08/2026, 17:09:14] _8nzy:\nO que necessita?\n\n[02/08/2026, 17:10:00] bian_157:\nOlá.\nTenho uma auth com 2.900 membros.\nQueria ver se vocês têm interesse.\nVendo por 25 reais.\nE, como vocês são famosos, eu não ligo de passar primeiro.\n[anexos: https://cdn.discordapp.com/attachments/1533567276916277368/1533567565778124891/image.png?ex=6a70f597&is=6a6fa417&hm=874986bf91ffe4866f43be1dd752dc7aebfdb1250f179a0f63d62746e707d3f5&]\n\n[02/08/2026, 17:11:29] veram:\nQual nicho são os membros?\n\n[02/08/2026, 17:12:08] veram:\n@Bia\n\n[02/08/2026, 17:12:22] bian_157:\nLoja\n\n[02/08/2026, 17:12:23] bian_157:\nTodos reais\n\n[02/08/2026, 17:12:31] veram:\nCerto\n\n[02/08/2026, 17:12:35] veram:\nVou querer pra outro servidor meu\n\n[02/08/2026, 17:12:43] bian_157:\nEra da minha loja, só que eu parei com ela.\nTodos interagiam no chat.\n\n[02/08/2026, 17:13:15] bian_157:\nQual?\n\n[02/08/2026, 17:13:43] veram:\nhttps://discord.gg/XtBaEsDWa\n\n[02/08/2026, 17:13:45] veram:\nEntra aí\n\n[02/08/2026, 17:13:49] veram:\nE manda a URL da auth\n\n[02/08/2026, 17:13:52] veram:\nPra mim colocar lá\n\n[02/08/2026, 17:14:48] bian_157:\n1 Minuto\n\n[02/08/2026, 17:14:51] bian_157:\nEstou comendo\n\n[02/08/2026, 17:14:56] veram:\nOk\n\n[02/08/2026, 17:17:15] santszzx2:\n@yuki\n\n[02/08/2026, 17:17:52] santszzx2:\nPSS COMPRA TMB?\n\n[02/08/2026, 17:24:42] bian_157:\n@yuki Está ai?\n\n[02/08/2026, 17:25:45] veram:\nSs\n\n[02/08/2026, 17:25:49] bian_157:\nAi só me fala o id do servidor\n\n[02/08/2026, 17:26:06] veram:\n1532339051816943666\n\n[02/08/2026, 17:26:14] brazino777.com.br:\n666\n\n[02/08/2026, 17:26:16] brazino777.com.br:\ncredo\n\n[02/08/2026, 17:26:19] bian_157:\nAdicionou?\n\n[02/08/2026, 17:26:23] bian_157:\nVou botar para puxar\n\n[02/08/2026, 17:26:30] bian_157:\npode demorar uns 10 minutos\n\n[02/08/2026, 17:26:54] unfrunami:\nKKKKKKKKKKKKKKKK\n\n[02/08/2026, 17:28:16] brazino777.com.br:\nFANTASMAS INVASÕES\n\n[02/08/2026, 17:28:18] brazino777.com.br:\n@Bia\n\n[02/08/2026, 17:28:22] brazino777.com.br:\nKKKKKKKKKKKKKKKKKKK\n\n[02/08/2026, 17:28:24] santszzx2:\n@Biaaeh vtmnc\n\n[02/08/2026, 17:28:34] santszzx2:\nPENSA Q EU N CONHEÇO O BOT DE VCS N?\n\n[02/08/2026, 17:28:36] santszzx2:\nakakakaa\n\n[02/08/2026, 17:28:39] santszzx2:\nbrincadeira\n\n[02/08/2026, 17:28:40] veram:\nKAKAKAKAKAKAKAKAKAKAKA\n\n[02/08/2026, 17:28:40] unfrunami:\nKKKKKKKKKKKKKKKKKKKKKKKK\n\n[02/08/2026, 17:28:40] bian_157:\nKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK\n\n[02/08/2026, 17:28:44] bian_157:\nKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK\n\n[02/08/2026, 17:28:45] unfrunami:\nKKKKKKKKKKKKKKKKKKKKKKKK MDS\n\n[02/08/2026, 17:28:46] veram:\ntá achando que nois é burro né\n\n[02/08/2026, 17:28:49] veram:\nMds\n\n[02/08/2026, 17:28:50] brazino777.com.br:\nne\n\n[02/08/2026, 17:28:54] bian_157:\nSIMMMMMMMM\n\n[02/08/2026, 17:28:55] santszzx2:\ntmnc\n\n[02/08/2026, 17:28:56] bian_157:\nCOMPRANDO MEMBRO\n\n[02/08/2026, 17:28:57] bian_157:\nKKKKKKKKKKK\n\n[02/08/2026, 17:29:00] bian_157:\nQUE FALIDO DO KRLHO\n\n[02/08/2026, 17:29:02] bian_157:\nKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK\n\n[02/08/2026, 17:29:07] brazino777.com.br:\npnc da 7m\n\n[02/08/2026, 17:29:09] brazino777.com.br:\naq é tudo real\n\n[02/08/2026, 17:29:13] brazino777.com.br:\ne inclusive\n\n[02/08/2026, 17:29:14] santszzx2:\n7m lixo\n\n[02/08/2026, 17:29:15] brazino777.com.br:\nolha al o server\n\n[02/08/2026, 17:29:18] unfrunami:\ncompramos a tadalafila pra comer o cu da sua mãe\n\n[02/08/2026, 17:29:19] brazino777.com.br:\nnem estrutura tem\n\n[02/08/2026, 17:29:20] unfrunami:\nSeu pcd\n\n[02/08/2026, 17:29:23] brazino777.com.br:\npnc\n\n[02/08/2026, 17:29:25] brazino777.com.br:\nlixo\n\n[02/08/2026, 17:29:26] brazino777.com.br:\njá quita\n\n[02/08/2026, 17:29:31] brazino777.com.br:\nfaz eu perder tempo n\n\n[02/08/2026, 17:29:33] bian_157:\nvdd\n\n[02/08/2026, 17:29:38] bian_157:\nnois que tem 900 owners\n\n[02/08/2026, 17:29:41] bian_157:\n-6dias\n\n[02/08/2026, 17:29:45] bian_157:\npegamos 800 membros\n\n[02/08/2026, 17:29:45] bian_157:\nK\n\n[02/08/2026, 17:29:50] brazino777.com.br:\ntá?\n\n[02/08/2026, 17:29:52] santszzx2:\nmrd eh bosta\n\n[02/08/2026, 17:29:53] brazino777.com.br:\nbota no currículo\n\n[02/08/2026, 17:30:28] santszzx2:\nbizzaro\n\n[02/08/2026, 17:30:33] bian_157:\nE outra\n\n[02/08/2026, 17:30:37] bian_157:\nvamos vzr o vip tá\n\n[02/08/2026, 17:30:40] bian_157:\njá clonamos\n\n[02/08/2026, 17:30:41] bian_157:\nseus pncu\n\n[02/08/2026, 17:30:42] bian_157:\nbye bye\n\n[02/08/2026, 17:30:43] bian_157:\nKKKK\n\n[02/08/2026, 17:30:44] veram:\nVIP?\n\n[02/08/2026, 17:30:46] brazino777.com.br:\nq vip?\n\n[02/08/2026, 17:30:47] brazino777.com.br:\nKKKK\n\n[02/08/2026, 17:30:52] brazino777.com.br:\nN tem nd\n\n[02/08/2026, 17:30:56] brazino777.com.br:\neu nem fiz o server\n\n[02/08/2026, 17:30:57] veram:\nNem lançou AKAKKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKKAAKKAAKKAKAKAKAKAKAKAKAKAAK\n\n[02/08/2026, 17:30:59] brazino777.com.br:\neu fiquei com preguiça\n\n[02/08/2026, 17:31:04] unfrunami:\nKKKKKKKKKKKKKKKKKKK\n\n[02/08/2026, 17:31:05] santszzx2:\nesses cara são bizzaro\n\n[02/08/2026, 17:31:14] unfrunami:\nTOP 10 RAIDS DO DISCORD\n\n[02/08/2026, 17:31:16] unfrunami:\nKKKKKKKKKKKKKKKKKKK\n\n[02/08/2026, 17:31:23] unfrunami:\nops\n\n[02/08/2026, 17:31:23] santszzx2:\npp akakaka\n\n[02/08/2026, 17:31:29] unfrunami:\nTop 10 PIORES\n\n[02/08/2026, 17:31:31] unfrunami:\nKKKKKKKKK\n\n[02/08/2026, 17:31:42] unfrunami:\nOs caras meteram um cavalo de trou do nd\n\n[02/08/2026, 17:31:45] unfrunami:\nKKKKKKKKKKKKKKKKKKK\n\n[02/08/2026, 17:32:20] unfrunami:\nKKKKKKKKKK E UMA MENSAGEM SÓ\n\n[02/08/2026, 17:32:30] unfrunami:\nTreinou e repetiu quantas vezes pra vir aqui?\n\n[02/08/2026, 17:32:32] unfrunami:\nKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK\n\n[02/08/2026, 17:32:53] unfrunami:\nOi, quero sim vou add aqui no server da lorrita\n\n[02/08/2026, 17:32:55] unfrunami:\nKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK\n\n[02/08/2026, 17:33:36] vmonpiw1f:\nQ cargos e esse don't\n\n[02/08/2026, 17:33:37] brazino777.com.br:\n\"eu não posso errar\" \"papai fantasma eu errei 😭\"\n\n[02/08/2026, 17:33:45] unfrunami:\nKKKKKKKK\n\n[02/08/2026, 17:33:50] unfrunami:\nist over\n\n[02/08/2026, 17:33:54] santszzx2:\n7m td pnc\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533599648877379747/1533627217920393226/transcript-c8c4d294-7cd.txt?ex=6a712d26&is=6a6fdba6&hm=31ff3dfd7b4e34c5c279247364f2c821f713312810b0568124a2a92c4b12621a&"
+        },
+        {
+          "id": "bdb7a379-cb19-428a-98d0-4cacfe66e97a",
+          "userId": "1324067578359844949",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785701915300,
+          "channelId": "1533569728021270588",
+          "assignedTo": "1530953217905528938",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533569729594265683",
+          "claimedBy": "1530953217905528938",
+          "assignedAt": 1785702041502,
+          "closedAt": 1785702290521,
+          "closedBy": "1324067578359844949",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: bdb7a379-cb19-428a-98d0-4cacfe66e97a\n Usuário: 1324067578359844949\n Fechado: 02/08/2026, 17:24:50\n══════════════════════════════════\n\n[02/08/2026, 17:18:35] FlowApps#7097:\n@! Ayann @staff @staff\n\n[02/08/2026, 17:18:49] veram:\nSalve meu Mn\n\n[02/08/2026, 17:18:52] veram:\nDoq precisa\n\n[02/08/2026, 17:18:58] ayann_299:\nSalve\n\n[02/08/2026, 17:19:07] ayann_299:\nAinda tem vaga pra poste?\n\n[02/08/2026, 17:19:11] veram:\nTem sim\n\n[02/08/2026, 17:20:00] ayann_299:\nPrecisa do que?\n\n[02/08/2026, 17:20:09] brazino777.com.br:\n@vyeexitus\n\n[02/08/2026, 17:21:35] unfrunami:\nTem quantos anos irmão??? Gerente posta todo dia ? Cumprir a meta diária, respeitar os superiores, verificar os bots ou arquivos que vc vai postar?\n\n[02/08/2026, 17:23:44] ayann_299:\nTenho 14 anos, entendi tudo, posta todo cumprir a meta diária, respeitar os superiores e verificar arquivos antes de postar.\n\n[02/08/2026, 17:23:56] unfrunami:\ncerto\n\n[02/08/2026, 17:24:00] unfrunami:\n@luke\n\n[02/08/2026, 17:24:25] brazino777.com.br:\nsetado\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533553077276250203/1533571303662031028/transcript-bdb7a379-cb1.txt?ex=6a70f913&is=6a6fa793&hm=1b4f140f5ec3c47fc912d10ff0a0740541afa52f7f092f08b0f8652bf0be0a95&"
+        },
+        {
+          "id": "59c2799e-c785-4d94-a3b7-34b59a4638b0",
+          "userId": "1490489235260702730",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785703455171,
+          "channelId": "1533576186696040700",
+          "assignedTo": "1526570298743197766",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533576188872753315",
+          "claimedBy": "1526570298743197766",
+          "assignedAt": 1785703464996,
+          "updatedAt": 1785703516691,
+          "closedAt": 1785705426596,
+          "closedBy": "1526570298743197766",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 59c2799e-c785-4d94-a3b7-34b59a4638b0\n Usuário: 1490489235260702730\n Fechado: 02/08/2026, 18:17:06\n══════════════════════════════════\n\n[02/08/2026, 17:44:15] FlowApps#7097:\n@ᗪᗩ ᖇᗩÇᗩ @staff @staff\n\n[02/08/2026, 17:44:24] rlketernofb:\nei\n\n[02/08/2026, 17:44:31] _8nzy:\nO que necessita?\n\n[02/08/2026, 17:44:47] santszzx2:\nboa\n\n[02/08/2026, 17:45:21] rlketernofb:\neu tenho 2 coisa a fala 1 eu tinha feito parceria com vcs um cara la abriu ticket pra fazer parceria fui preocura o meu sv e n acho\n\n[02/08/2026, 17:45:25] rlketernofb:\n99m\n\n[02/08/2026, 17:46:42] _8nzy:\nQuer parceria?\n\n[02/08/2026, 17:47:08] rlketernofb:\n...\n\n[02/08/2026, 17:47:15] rlketernofb:\nja fizeram\n\n[02/08/2026, 17:47:22] rlketernofb:\nmais apagaram o canal\n\n[02/08/2026, 17:47:33] _8nzy:\nMuitos canais tem\n\n[02/08/2026, 17:47:43] _8nzy:\nAs vezes tiram e o servidor também sofreu raid\n\n[02/08/2026, 17:48:08] rlketernofb:\n[anexos: https://cdn.discordapp.com/attachments/1533576186696040700/1533577162714648597/image.png?ex=6a70fe88&is=6a6fad08&hm=dc195b19952f86a369f8c6cadf20ae6aef6ed9e18b735b89cc4bf4c236661222&]\n\n[02/08/2026, 17:48:14] rlketernofb:\nolha\n\n[02/08/2026, 17:48:24] rlketernofb:\neu ja tinha feito parceria com a flow\n\n[02/08/2026, 17:48:48] rlketernofb:\napagarm\n\n[02/08/2026, 17:54:11] rlketernofb:\nvou apaga o sv la ent\n\n[02/08/2026, 17:54:23] rlketernofb:\ncanal\n\n[02/08/2026, 17:54:55] rlketernofb:\npronto\n\n[02/08/2026, 17:55:02] rlketernofb:\najuda ai naquele site\n\n[02/08/2026, 17:55:15] rlketernofb:\nsite farm de conta infinita gmail\n\n[02/08/2026, 18:03:21] _8nzy:\nFaz parceria dnv paizão\n\n[02/08/2026, 18:03:23] _8nzy:\nSó fazer\n\n[02/08/2026, 18:07:53] rlketernofb:\nto suave\n\n[02/08/2026, 18:08:08] _8nzy:\nOk\n\n[02/08/2026, 18:08:19] _8nzy:\nSuporte para os poster você vê com que postou\n\n[02/08/2026, 18:08:21] _8nzy:\nMarca ai\n\n[02/08/2026, 18:08:40] rlketernofb:\nesse ai\n\n[02/08/2026, 18:08:56] rlketernofb:\nderam creditos pra vcs ai vim no ticket\n\n[02/08/2026, 18:09:03] rlketernofb:\npq n sei qual foi o poster\n\n[02/08/2026, 18:09:59] _8nzy:\nPuxa vida\n\n[02/08/2026, 18:10:54] _8nzy:\nCalma\n\n[02/08/2026, 18:11:19] _8nzy:\n@T̺͆W̺͆O̺͆\n\n[02/08/2026, 18:11:21] _8nzy:\nFoi tu?\n\n[02/08/2026, 18:13:01] _8nzy:\n@T̺͆W̺͆O̺͆\n\n[02/08/2026, 18:13:03] _8nzy:\n@T̺͆W̺͆O̺͆\n\n[02/08/2026, 18:14:07] rlketernofb:\ne essa julia\n\n[02/08/2026, 18:14:20] _8nzy:\nJulia q postou?\n\n[02/08/2026, 18:14:25] _8nzy:\n@ᗪᗩ ᖇᗩÇᗩ\n\n[02/08/2026, 18:14:28] rlketernofb:\nss\n\n[02/08/2026, 18:14:39] _8nzy:\nVixi ela saiu do cargo\n\n[02/08/2026, 18:14:46] rlketernofb:\npox\n\n[02/08/2026, 18:14:48] _8nzy:\nNão sei usar isso ai\n\n[02/08/2026, 18:15:00] rlketernofb:\npaia\n\n[02/08/2026, 18:15:10] _8nzy:\nSó isso?\n\n[02/08/2026, 18:15:12] _8nzy:\nPode fechar?\n\n[02/08/2026, 18:15:25] _8nzy:\n@ᗪᗩ ᖇᗩÇᗩ\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533576227720396840/1533584458211393646/transcript-59c2799e-c78.txt?ex=6a710553&is=6a6fb3d3&hm=a3e0045138ea66701962449d48bc9f439e4d7450f5431c161d368d2967320c9e&"
+        },
+        {
+          "id": "8a93e9c3-1085-477a-940e-a9c78edf5cd9",
+          "userId": "1277058150259757077",
+          "functionId": "3e27d126-17b8-4323-916b-af6ef36161f6",
+          "functionName": "Duvidas",
+          "status": "archived",
+          "at": 1785703603776,
+          "channelId": "1533576809873014835",
+          "assignedTo": "1526570298743197766",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533576811626365082",
+          "claimedBy": "1526570298743197766",
+          "assignedAt": 1785703608759,
+          "closedAt": 1785703978753,
+          "closedBy": "1530953217905528938",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Duvidas\n ID: 8a93e9c3-1085-477a-940e-a9c78edf5cd9\n Usuário: 1277058150259757077\n Fechado: 02/08/2026, 17:52:58\n══════════════════════════════════\n\n[02/08/2026, 17:46:44] FlowApps#7097:\n@nvk_ezz @staff @staff\n\n[02/08/2026, 17:46:49] nvk_ezz:\n[anexos: https://cdn.discordapp.com/attachments/1533576809873014835/1533576833696665650/image.png?ex=6a70fe39&is=6a6facb9&hm=f2eb4a869c66d1ba56b98a4b092520398cb6d513595fbfcff6573e6ce9afc135&]\n\n[02/08/2026, 17:46:50] nvk_ezz:\nda ban\n\n[02/08/2026, 17:46:51] nvk_ezz:\n?\n\n[02/08/2026, 17:46:54] _8nzy:\nO que necessita?\n\n[02/08/2026, 17:47:04] nvk_ezz:\n,\n\n[02/08/2026, 17:47:21] _8nzy:\nO poster que enviou isso não tá mas no cargo eu acho\n\n[02/08/2026, 17:47:58] _8nzy:\nEntão não sei\n\n[02/08/2026, 17:49:13] nvk_ezz:\nok pode fecha\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533576830538485781/1533578383957557338/transcript-8a93e9c3-108.txt?ex=6a70ffab&is=6a6fae2b&hm=b64e1d97a85a22bb3e4dd120f8237a8554867fdaa3dd9c8451fef9f74d5cd54d&"
+        },
+        {
+          "id": "cbd35527-dbc6-4566-9642-e5b9cdb1b854",
+          "userId": "1524151088092152049",
+          "functionId": "3e27d126-17b8-4323-916b-af6ef36161f6",
+          "functionName": "Duvidas",
+          "status": "archived",
+          "at": 1785704192389,
+          "channelId": "1533579278858326026",
+          "assignedTo": "1526570298743197766",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533579280145973299",
+          "claimedBy": "1526570298743197766",
+          "assignedAt": 1785704201804,
+          "closedAt": 1785704951567,
+          "closedBy": "1465810490277236926",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Duvidas\n ID: cbd35527-dbc6-4566-9642-e5b9cdb1b854\n Usuário: 1524151088092152049\n Fechado: 02/08/2026, 18:09:11\n══════════════════════════════════\n\n[02/08/2026, 17:56:32] FlowApps#7097:\n@ark da midia @staff @staff\n\n[02/08/2026, 17:56:42] 30uh:\nBoa tarde\n\n[02/08/2026, 17:56:47] _8nzy:\nO que necessita?\n\n[02/08/2026, 17:57:01] 30uh:\nPara fazer parceria precisa ter qnts membros?\n\n[02/08/2026, 18:00:23] santszzx2:\n100\n\n[02/08/2026, 18:03:28] _8nzy:\n100 membros\n\n[02/08/2026, 18:05:00] 30uh:\nTenho isso n\n\n[02/08/2026, 18:05:06] 30uh:\nPd fecha\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533579317567688778/1533582464185012294/transcript-cbd35527-dbc.txt?ex=6a710378&is=6a6fb1f8&hm=d8d8239ecb084575b1d4adc9de25b8df88ba60c02788ff432bb8ab0d40557cb6&"
+        },
+        {
+          "id": "899637c3-22ba-43b8-9715-cd0812130e74",
+          "userId": "1512632549556621332",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785704451439,
+          "channelId": "1533580365472465007",
+          "assignedTo": "1530953217905528938",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533580366751727668",
+          "claimedBy": "1530953217905528938",
+          "assignedAt": 1785704500420,
+          "closedAt": 1785715623712,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 899637c3-22ba-43b8-9715-cd0812130e74\n Usuário: 1512632549556621332\n Fechado: 02/08/2026, 21:07:03\n══════════════════════════════════\n\n[02/08/2026, 18:00:51] FlowApps#7097:\n@MENTALISTA @staff @staff\n\n[02/08/2026, 18:00:59] kalicosta1x1x:\nSaudações\n\n[02/08/2026, 18:01:07] blacckwhite:\ncd\n\n[02/08/2026, 18:01:12] blacckwhite:\nmarca o Luke ai\n\n[02/08/2026, 18:01:33] kalicosta1x1x:\n@luke Estão chamando o senhor\n\n[02/08/2026, 18:01:43] brazino777.com.br:\nsim?\n\n[02/08/2026, 18:01:45] unfrunami:\nKKKKKKKKKKKKKKKK\n\n[02/08/2026, 18:01:57] blacckwhite:\nseu pnc\n\n[02/08/2026, 18:02:01] brazino777.com.br:\nolk\n\n[02/08/2026, 18:02:02] blacckwhite:\narrumei meu celular\n\n[02/08/2026, 18:02:07] brazino777.com.br:\nboa\n\n[02/08/2026, 18:02:25] blacckwhite:\ntá agr eu pergunto quem tá me kikando do server\n\n[02/08/2026, 18:02:31] brazino777.com.br:\nsla\n\n[02/08/2026, 18:02:34] brazino777.com.br:\nvai voltar?\n\n[02/08/2026, 18:02:46] blacckwhite:\nUé vcs me kika e me quer de volta\n\n[02/08/2026, 18:02:52] brazino777.com.br:\n@yuki qual é o cargo de ash\n\n[02/08/2026, 18:02:59] brazino777.com.br:\neu n te removi\n\n[02/08/2026, 18:03:02] brazino777.com.br:\ne nem o yuki eu acho\n\n[02/08/2026, 18:03:05] brazino777.com.br:\nent foi qm?\n\n[02/08/2026, 18:03:08] brazino777.com.br:\njá q ngm tem perm\n\n[02/08/2026, 18:03:14] blacckwhite:\ntem alguém de brincadeira ai\n\n[02/08/2026, 18:03:22] blacckwhite:\nvou pega qm foi\n\n[02/08/2026, 18:03:26] blacckwhite:\nda meu cargo ai\n\n[02/08/2026, 18:03:40] blacckwhite:\nVou subir de cargo Rapidão em slk\n\n[02/08/2026, 18:03:46] blacckwhite:\nMeu celular tá MT massa\n\n[02/08/2026, 18:05:39] blacckwhite:\n@luke\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533580570565673121/1533627228032598256/transcript-899637c3-22b.txt?ex=6a712d28&is=6a6fdba8&hm=51bb13639ccb15c92c2c03a340175d62ea4965870db995dbde82b525508a0788&"
+        },
+        {
+          "id": "0f6ab59a-dbd9-4d5e-88a6-2d3a975355fc",
+          "userId": "795804060871557174",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785705493597,
+          "channelId": "1533584736339890187",
+          "assignedTo": "1530953217905528938",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533584738420527206",
+          "claimedBy": "1530953217905528938",
+          "assignedAt": 1785705498172,
+          "closedAt": 1785715628415,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 0f6ab59a-dbd9-4d5e-88a6-2d3a975355fc\n Usuário: 795804060871557174\n Fechado: 02/08/2026, 21:07:08\n══════════════════════════════════\n\n[02/08/2026, 18:18:14] FlowApps#7097:\n@Lvzinn @staff @staff\n\n[02/08/2026, 18:18:20] unfrunami:\nVz rei\n\n[02/08/2026, 18:18:23] unfrunami:\nBoa noite\n\n[02/08/2026, 18:18:24] sla.1_:\nTava precisando falar com o yuki\n\n[02/08/2026, 18:18:28] unfrunami:\nOq deseja irmão\n\n[02/08/2026, 18:18:30] unfrunami:\nokk\n\n[02/08/2026, 18:18:33] unfrunami:\n@yuki\n\n[02/08/2026, 18:18:41] sla.1_:\nTão chamando ele e de otario\n\n[02/08/2026, 18:18:44] sla.1_:\nEm outro sv\n\n[02/08/2026, 18:18:51] brazino777.com.br:\nq\n\n[02/08/2026, 18:18:51] sla.1_:\n[anexos: https://cdn.discordapp.com/attachments/1533584736339890187/1533584892573778110/image0.jpg?ex=6a7105bb&is=6a6fb43b&hm=0d7a32f1562466a74f71f0d5282418d66b58d6e9a0ec063ab21b71a2f150e5ac&, https://cdn.discordapp.com/attachments/1533584736339890187/1533584892900671668/Screenshot_2026-08-02-18-17-44-746_com.discord.jpg?ex=6a7105bb&is=6a6fb43b&hm=9140da8761789ec2735edff188186d2f21677f464a1e7e696b2f3d412a58e735&]\n\n[02/08/2026, 18:18:51] brazino777.com.br:\nu\n\n[02/08/2026, 18:18:52] brazino777.com.br:\na\n\n[02/08/2026, 18:18:53] brazino777.com.br:\nl\n\n[02/08/2026, 18:19:04] sla.1_:\n7m\n\n[02/08/2026, 18:19:16] brazino777.com.br:\n7m?\n\n[02/08/2026, 18:19:19] brazino777.com.br:\nnão conheço\n\n[02/08/2026, 18:19:28] brazino777.com.br:\nsó consigo falar mal de qm eu conheço\n\n[02/08/2026, 18:19:29] brazino777.com.br:\nmal ai\n\n[02/08/2026, 18:19:31] sla.1_:\nO Yuki conhece\n\n[02/08/2026, 18:23:48] sla.1_:\nEu sei comprar MB pra ttk\n\n[02/08/2026, 18:24:00] sla.1_:\n@yuki se tu quiser\n\n[02/08/2026, 18:24:16] sla.1_:\nPor um preço barato eu acho\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533584755583483955/1533627248610115664/transcript-0f6ab59a-dbd.txt?ex=6a712d2d&is=6a6fdbad&hm=6611f25cb43b25c009558fd4ac75a5bf3923c115e40944abb322dc135c9b4cdd&"
+        },
+        {
+          "id": "6be2598a-df2b-433f-84b6-ee7208919719",
+          "userId": "1530406671988293651",
+          "functionId": "3e27d126-17b8-4323-916b-af6ef36161f6",
+          "functionName": "Duvidas",
+          "status": "archived",
+          "at": 1785708747404,
+          "channelId": "1533598383816835152",
+          "assignedTo": "743886163064127519",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533598385280385078",
+          "claimedBy": "743886163064127519",
+          "assignedAt": 1785708786739,
+          "closedAt": 1785708841777,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Duvidas\n ID: 6be2598a-df2b-433f-84b6-ee7208919719\n Usuário: 1530406671988293651\n Fechado: 02/08/2026, 19:14:01\n══════════════════════════════════\n\n[02/08/2026, 19:12:27] FlowApps#7097:\n@Sky @staff @staff\n\n[02/08/2026, 19:12:53] exrfuenf:\n@yuki Compra membros? tenho uma auth de 1500\n\n[02/08/2026, 19:13:04] xzchat:\npqp\n\n[02/08/2026, 19:13:16] exrfuenf:\n?\n\n[02/08/2026, 19:13:21] xzchat:\nConta recente\n\n[02/08/2026, 19:13:27] exrfuenf:\nUai que tem\n\n[02/08/2026, 19:13:39] brazino777.com.br:\nopa\n\n[02/08/2026, 19:13:42] xzchat:\nE não compramos\n\n[02/08/2026, 19:13:50] brazino777.com.br:\nnão compramos\n\n[02/08/2026, 19:13:52] brazino777.com.br:\njamais vamos\n\n[02/08/2026, 19:13:56] exrfuenf:\nAh pq\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533598548611039462/1533598780778217472/transcript-6be2598a-df2.txt?ex=6a7112aa&is=6a6fc12a&hm=2edba244265e2d060e5f4e5e0d0f52660f73a66471a06e5b5465f915924d0e13&"
+        },
+        {
+          "id": "fd6d8d3a-8de5-4c16-8597-2285e0e2f243",
+          "userId": "1452663473531260938",
+          "functionId": "3e27d126-17b8-4323-916b-af6ef36161f6",
+          "functionName": "Duvidas",
+          "status": "archived",
+          "at": 1785709088633,
+          "channelId": "1533599815265419296",
+          "assignedTo": "1528987848533872752",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533599816507064401",
+          "claimedBy": "1528987848533872752",
+          "assignedAt": 1785709107533,
+          "closedAt": 1785709196384,
+          "closedBy": "1452663473531260938",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Duvidas\n ID: fd6d8d3a-8de5-4c16-8597-2285e0e2f243\n Usuário: 1452663473531260938\n Fechado: 02/08/2026, 19:19:56\n══════════════════════════════════\n\n[02/08/2026, 19:18:09] FlowApps#7097:\n@luke @staff @staff\n\n[02/08/2026, 19:18:18] xzchat:\nKu\n\n[02/08/2026, 19:18:22] brazino777.com.br:\ncalma rpz\n\n[02/08/2026, 19:18:24] brazino777.com.br:\né só teste\n\n[02/08/2026, 19:18:25] brazino777.com.br:\nkk\n\n[02/08/2026, 19:18:31] vmonpiw1f:\nOpa\n\n[02/08/2026, 19:18:33] vmonpiw1f:\nAssumi ja\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533551310270628011/1533600269600821388/transcript-fd6d8d3a-8de.txt?ex=6a71140d&is=6a6fc28d&hm=e3301a0a7173e9840d1c1afb431fdf7a28008d8f67dacbad32a7d62e6cbfaea0&"
+        },
+        {
+          "id": "0185b475-6959-4b87-92cf-7d0c6d9ef06b",
+          "userId": "1203519952963895397",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785712092054,
+          "channelId": "1533612412404764793",
+          "assignedTo": "1465810490277236926",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533612414380281886",
+          "claimedBy": "1465810490277236926",
+          "assignedAt": 1785712100689,
+          "closedAt": 1785715635238,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 0185b475-6959-4b87-92cf-7d0c6d9ef06b\n Usuário: 1203519952963895397\n Fechado: 02/08/2026, 21:07:15\n══════════════════════════════════\n\n[02/08/2026, 20:08:12] FlowApps#7097:\n@Souza 友 @staff @staff\n\n[02/08/2026, 20:08:17] buscapeboss:\nman\n\n[02/08/2026, 20:08:17] santszzx2:\nboa\n\n[02/08/2026, 20:08:23] buscapeboss:\npeguei uma suroce\n\n[02/08/2026, 20:08:26] buscapeboss:\nsource*\n\n[02/08/2026, 20:08:48] buscapeboss:\nsoq\n\n[02/08/2026, 20:08:58] buscapeboss:\no bot n aceita q eu uso os comandos\n\n[02/08/2026, 20:09:13] buscapeboss:\npede perm, porém já configurei\n\n[02/08/2026, 20:09:22] santszzx2:\nq soruce?\n\n[02/08/2026, 20:09:26] buscapeboss:\n[anexos: https://cdn.discordapp.com/attachments/1533612412404764793/1533612721193353386/C3229493-15F5-4539-9CF9-9AFC4C234845.png?ex=6a711fa5&is=6a6fce25&hm=44cbea09f48427e9e5a295012ca4f24f70bc8d41debf834b115af699537697e5&]\n\n[02/08/2026, 20:09:39] buscapeboss:\n[anexos: https://cdn.discordapp.com/attachments/1533612412404764793/1533612777816592606/nixbotbyxzchat.zip?ex=6a711fb3&is=6a6fce33&hm=2c545246eda8ca801e5f2610fc0f37299a6c320f33df8f2952bd08ed2deb6c6b&]\n\n[02/08/2026, 20:09:59] buscapeboss:\n[anexos: https://cdn.discordapp.com/attachments/1533612412404764793/1533612861954199592/E2593842-F159-432B-AB23-8F984BFFA662.png?ex=6a711fc7&is=6a6fce47&hm=c3984c9ca2c8734b59afa5b4f62a13ce6160547e164f6fa59b5916bee9f2b47a&]\n\n[02/08/2026, 20:10:24] buscapeboss:\n[anexos: https://cdn.discordapp.com/attachments/1533612412404764793/1533612966078058617/2B9810FE-2DDA-4578-9F62-13241C0B385D.png?ex=6a711fe0&is=6a6fce60&hm=a1f9e8e469ffcda1a3efe7f7226365c4a3b2d96c6403d27073d81c03c163197b&]\n\n[02/08/2026, 20:10:58] buscapeboss:\ncomo q pega permissão nessa prr\n\n[02/08/2026, 20:11:32] santszzx2:\nele n conhece q vc eh o dono?\n\n[02/08/2026, 20:11:38] santszzx2:\nvc ja deu perm\n\n[02/08/2026, 20:11:39] santszzx2:\n?\n\n[02/08/2026, 20:12:27] buscapeboss:\nn\n\n[02/08/2026, 20:12:34] buscapeboss:\nno vs code ss\n\n[02/08/2026, 20:12:42] buscapeboss:\n[anexos: https://cdn.discordapp.com/attachments/1533612412404764793/1533613547316187186/AF9DA653-DAA5-40D1-A825-7A01A08275AC.png?ex=6a71206a&is=6a6fceea&hm=ef060077543ddaeb0fc97b1420f19bd8cbf4d819120fffcc310d507df62e2b1a&]\n\n[02/08/2026, 20:12:43] santszzx2:\neh dento mrm\n\n[02/08/2026, 20:12:50] santszzx2:\nja tentou da /perm?\n\n[02/08/2026, 20:13:04] buscapeboss:\nn tinha esse comando n\n\n[02/08/2026, 20:13:06] buscapeboss:\nvou ver aq\n\n[02/08/2026, 20:13:07] buscapeboss:\n2min\n\n[02/08/2026, 20:13:20] santszzx2:\nver aeh\n\n[02/08/2026, 20:13:25] buscapeboss:\n[anexos: https://cdn.discordapp.com/attachments/1533612412404764793/1533613724315680829/9F7D2811-D7E4-4DC1-BC85-A413B6B5327D.png?ex=6a712095&is=6a6fcf15&hm=4f97729ad8f3b3ddf886c45412052dbbca10e6df568c24b827595815930d6765&]\n\n[02/08/2026, 20:13:29] buscapeboss:\nunica perm é essa\n\n[02/08/2026, 20:13:33] buscapeboss:\nperm list\n\n[02/08/2026, 20:13:59] santszzx2:\ntenta acha essa perm lista\n\n[02/08/2026, 20:14:05] santszzx2:\npara bota seu id munual\n\n[02/08/2026, 20:14:16] buscapeboss:\nno vs ne\n\n[02/08/2026, 20:14:23] santszzx2:\ns\n\n[02/08/2026, 20:17:35] buscapeboss:\n[anexos: https://cdn.discordapp.com/attachments/1533612412404764793/1533614773453848688/10B171C1-A38C-4C60-8652-81835C85518F.png?ex=6a71218f&is=6a6fd00f&hm=fc9e979558d510b2b7ac194009236844b58156cc95dbf1159266d529bfa8c8fc&]\n\n[02/08/2026, 20:17:37] buscapeboss:\nachei isso\n\n[02/08/2026, 20:17:42] buscapeboss:\nmas n tem pra colocar id\n\n[02/08/2026, 20:23:33] buscapeboss:\n@! Gtzinn tu tem source de bot vendas + ticket ai n\n\n[02/08/2026, 20:23:59] santszzx2:\ntenho\n\n[02/08/2026, 20:24:08] buscapeboss:\nfuncionando\n\n[02/08/2026, 20:24:31] buscapeboss:\nviado\n\n[02/08/2026, 20:24:35] buscapeboss:\nprogramei o bglh\n\n[02/08/2026, 20:24:37] buscapeboss:\nKKKKKKKKKKKKKKKKKKKKKKK\n\n[02/08/2026, 20:24:45] buscapeboss:\nconsegui desligar o sistema\n\n[02/08/2026, 20:24:50] buscapeboss:\npqp\n\n[02/08/2026, 20:24:51] buscapeboss:\nsou foda\n\n[02/08/2026, 20:24:57] buscapeboss:\ndeixa\n\n[02/08/2026, 20:25:08] buscapeboss:\n[anexos: https://cdn.discordapp.com/attachments/1533612412404764793/1533616673276563516/36A361DA-C9BC-4F53-B8B0-5C9EC4A24E56.png?ex=6a712354&is=6a6fd1d4&hm=07cbfc544e804b33a42fcd9fce87c872b248dcef7986d54b801a485e15d4766d&]\n\n[02/08/2026, 20:25:19] buscapeboss:\nconsegui programar lá\n\n[02/08/2026, 20:25:34] buscapeboss:\ntirei os bglh de permissão\n\n[02/08/2026, 20:25:40] buscapeboss:\nagr ss\n\n[02/08/2026, 20:25:47] santszzx2:\nai sim\n\n[02/08/2026, 20:25:49] santszzx2:\nprogamador aakaka\n\n[02/08/2026, 20:27:24] buscapeboss:\nkkkkkkkkkkkkkkkkkkkkkkkkkk\n\n[02/08/2026, 20:27:28] buscapeboss:\nnem sei como viado\n\n[02/08/2026, 20:27:31] buscapeboss:\nso fui\n\n[02/08/2026, 20:27:38] buscapeboss:\nmas deu certo aq rlk\n\n[02/08/2026, 20:28:26] santszzx2:\nso isso bbzete?\n\n[02/08/2026, 20:29:12] buscapeboss:\nss bb\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533612448286769312/1533627278020313201/transcript-0185b475-695.txt?ex=6a712d34&is=6a6fdbb4&hm=d131e209ec0028e1b7882b4dbbd8faea79fe95e7685fa7b373b10b54da0ccb68&"
+        },
+        {
+          "id": "e5843efe-efaa-415a-a5f6-1a885fce133d",
+          "userId": "1514047051703517286",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785713182454,
+          "channelId": "1533616995516285009",
+          "assignedTo": "1530953217905528938",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533616997210787963",
+          "claimedBy": "1530953217905528938",
+          "assignedAt": 1785713206363,
+          "closedAt": 1785713874229,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: e5843efe-efaa-415a-a5f6-1a885fce133d\n Usuário: 1514047051703517286\n Fechado: 02/08/2026, 20:37:54\n══════════════════════════════════\n\n[02/08/2026, 20:26:25] FlowApps#7097:\n@Ghost @staff @staff\n\n[02/08/2026, 20:26:31] ghost11kzz:\nqr ser poster\n\n[02/08/2026, 20:26:32] santszzx2:\nboaa\n\n[02/08/2026, 20:26:35] santszzx2:\n@yuki\n\n[02/08/2026, 20:26:54] unfrunami:\ngg irmão cmg\n\n[02/08/2026, 20:27:06] santszzx2:\nfx boa boa\n\n[02/08/2026, 20:27:40] unfrunami:\nTem quantos anos irmão??? Vai posta Todos os dias ?? Vai respeitar os superiores?? Cumprir suas metas diárias?? Verifica os arquivos antes de postar??\n\n[02/08/2026, 20:28:52] ghost11kzz:\n16\n\n[02/08/2026, 20:28:55] ghost11kzz:\nsim\n\n[02/08/2026, 20:29:06] ghost11kzz:\nsim\n\n[02/08/2026, 20:29:20] ghost11kzz:\nvou verificar sim\n\n[02/08/2026, 20:29:39] ghost11kzz:\n@vyeexitus\n\n[02/08/2026, 20:29:48] veram:\nOk\n\n[02/08/2026, 20:29:52] veram:\nSetado\n\n[02/08/2026, 20:30:15] unfrunami:\nKKKKKKKKKK\n\n[02/08/2026, 20:35:54] ghost11kzz:\npd fchr se quiser xuxu\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533617085555675349/1533619888667496689/transcript-e5843efe-efa.txt?ex=6a712652&is=6a6fd4d2&hm=d9acb28e91085165a2eb66b9f2c671d53c92c5bca5b0f36e351c71e64f6fc3b3&"
+        },
+        {
+          "id": "01351bc6-e952-41ea-a722-e99996ff824c",
+          "userId": "1426187164844294164",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785713960797,
+          "channelId": "1533620250333937865",
+          "assignedTo": "1526570298743197766",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533620251961458749",
+          "claimedBy": "1526570298743197766",
+          "assignedAt": 1785713984203,
+          "closedAt": 1785714042401,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 01351bc6-e952-41ea-a722-e99996ff824c\n Usuário: 1426187164844294164\n Fechado: 02/08/2026, 20:40:42\n══════════════════════════════════\n\n[02/08/2026, 20:39:21] FlowApps#7097:\n@Ghostzin (Olha a B1O) @staff @staff\n\n[02/08/2026, 20:39:26] hyper_mage_9314:\nOpa\n\n[02/08/2026, 20:39:34] hyper_mage_9314:\nCm faço pra ser staff?\n\n[02/08/2026, 20:39:51] _8nzy:\n@yuki\n\n[02/08/2026, 20:40:23] santszzx2:\n@resp. staffs\n\n[02/08/2026, 20:40:26] hyper_mage_9314:\nA dx, kkkk, pode fechar\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533620348107358288/1533620593453170910/transcript-01351bc6-e95.txt?ex=6a7126fa&is=6a6fd57a&hm=52a50bdba16c94012bd994f79f06a4279153e4bd0510de676a8dcd809d9bad9b&"
+        },
+        {
+          "id": "90ca4e77-c834-4b18-acd7-5f4e788a7510",
+          "userId": "1424833780786663575",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785713981371,
+          "channelId": "1533620336355180545",
+          "assignedTo": "1530953217905528938",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533620337856483479",
+          "claimedBy": "1530953217905528938",
+          "assignedAt": 1785713998355,
+          "closedAt": 1785715637956,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 90ca4e77-c834-4b18-acd7-5f4e788a7510\n Usuário: 1424833780786663575\n Fechado: 02/08/2026, 21:07:17\n══════════════════════════════════\n\n[02/08/2026, 20:39:41] FlowApps#7097:\n@9bix @staff @staff\n\n[02/08/2026, 20:39:49] 9bix:\nopa\n\n[02/08/2026, 20:39:55] 9bix:\nvaga staff\n\n[02/08/2026, 20:39:55] santszzx2:\nBoa\n\n[02/08/2026, 20:40:03] unfrunami:\n@yuki\n\n[02/08/2026, 20:40:04] santszzx2:\n@resp. staffs\n\n[02/08/2026, 20:40:12] 9bix:\noi filho\n\n[02/08/2026, 20:40:20] unfrunami:\nWtf\n\n[02/08/2026, 20:40:29] 9bix:\nstaff tem q postar também ou nada ave\n\n[02/08/2026, 20:40:34] veram:\nnn\n\n[02/08/2026, 20:40:39] veram:\nso se quiser\n\n[02/08/2026, 20:40:42] 9bix:\nta\n\n[02/08/2026, 20:40:47] 9bix:\nmanda o form pro pai\n\n[02/08/2026, 20:40:49] 9bix:\nou não tem\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533620407477866721/1533627290443841577/transcript-90ca4e77-c83.txt?ex=6a712d37&is=6a6fdbb7&hm=fddbf9736b3d251b9b6394aa098ff040714e07654f16014c00999eefbb45ef56&"
+        },
+        {
+          "id": "312ff74a-e642-4c59-a4bc-630ffe0d17eb",
+          "userId": "1324067578359844949",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785714045001,
+          "channelId": "1533620603347533906",
+          "assignedTo": "1526570298743197766",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533620605046227136",
+          "claimedBy": "1526570298743197766",
+          "assignedAt": 1785714048076,
+          "closedAt": 1785714165359,
+          "closedBy": "1324067578359844949",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 312ff74a-e642-4c59-a4bc-630ffe0d17eb\n Usuário: 1324067578359844949\n Fechado: 02/08/2026, 20:42:45\n══════════════════════════════════\n\n[02/08/2026, 20:40:45] FlowApps#7097:\n@! Ayann @staff @staff\n\n[02/08/2026, 20:40:49] santszzx2:\nBoa\n\n[02/08/2026, 20:40:53] ayann_299:\nBoa\n\n[02/08/2026, 20:40:57] _8nzy:\n?\n\n[02/08/2026, 20:41:16] ayann_299:\nTô quase batendo a meta.\n\n[02/08/2026, 20:41:31] _8nzy:\nO que necessita?\n\n[02/08/2026, 20:41:55] ayann_299:\nA meta muda todo dia ou é 10  sempre?\n\n[02/08/2026, 20:42:12] _8nzy:\n10\n\n[02/08/2026, 20:42:17] _8nzy:\nSempre\n\n[02/08/2026, 20:42:26] ayann_299:\nOk, era só isso msm.\n\n[02/08/2026, 20:42:28] _8nzy:\nOk\n\n[02/08/2026, 20:42:32] _8nzy:\nPode fechar?\n\n[02/08/2026, 20:42:43] ayann_299:\nSs\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1533553077276250203/1533621109373534299/transcript-312ff74a-e64.txt?ex=6a712775&is=6a6fd5f5&hm=abdd26cd484cd2702d4b1b9a1eab5b4966ce0312b7c3ea60fcc7db5b7ade9d70&"
+        },
+        {
+          "id": "83a791b2-b4ad-4243-8a19-9a219d83d91b",
+          "userId": "1513734916225896481",
+          "functionId": "3e27d126-17b8-4323-916b-af6ef36161f6",
+          "functionName": "Duvidas",
+          "status": "open",
+          "at": 1785715415821,
+          "channelId": "1533626353109307533",
+          "assignedTo": "1530953217905528938",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533626360130441377",
+          "claimedBy": "1530953217905528938",
+          "assignedAt": 1785715458854
+        },
+        {
+          "id": "dbb89742-fb11-4b61-a975-9bb7c464d77e",
+          "userId": "1301343734490730549",
+          "functionId": "3e27d126-17b8-4323-916b-af6ef36161f6",
+          "functionName": "Duvidas",
+          "status": "open",
+          "at": 1785716952842,
+          "channelId": "1533632799817335085",
+          "assignedTo": "1526570298743197766",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533632806675021908",
+          "claimedBy": "1526570298743197766",
+          "assignedAt": 1785716961291
+        },
+        {
+          "id": "e3d717b5-6ca5-4e4e-a659-601c6293f27e",
+          "userId": "1530367021890539562",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "open",
+          "at": 1785718745157,
+          "channelId": "1533640317016871052",
+          "assignedTo": "1526570298743197766",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533640324251910266",
+          "claimedBy": "1526570298743197766",
+          "assignedAt": 1785718757610
+        },
+        {
+          "id": "b76fbc1c-eb04-49f2-978c-b0fe6a6984cf",
+          "userId": "1465103601566220400",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "open",
+          "at": 1785718933420,
+          "channelId": "1533641106636406844",
+          "assignedTo": "1530953217905528938",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533641113879974020",
+          "claimedBy": "1530953217905528938",
+          "assignedAt": 1785718938873
+        },
+        {
+          "id": "13ffabc3-f5f9-472e-aa8d-7e7d3f94dda4",
+          "userId": "1518739113665368207",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "open",
+          "at": 1785719261908,
+          "channelId": "1533642484490698913",
+          "assignedTo": "1530953217905528938",
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1533642491063177236",
+          "claimedBy": "1530953217905528938",
+          "assignedAt": 1785719277669
+        },
+        {
+          "id": "f2fcefe8-167a-480a-a549-550ed859a5c4",
+          "userId": "833855053890715681",
+          "functionId": "3e27d126-17b8-4323-916b-af6ef36161f6",
+          "functionName": "Duvidas",
+          "status": "archived",
+          "at": 1785834060941,
+          "channelId": "1534123986668097586",
+          "assignedTo": null,
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1534123991470440519",
+          "purchaseId": "4492c778-eccc-4b00-90fe-6d2d53b5b7bf",
+          "purchaseName": "Chat Gpt Plus • Chat gpt Plus - Nfa",
+          "closedAt": 1785834074510,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Duvidas\n ID: f2fcefe8-167a-480a-a549-550ed859a5c4\n Usuário: 833855053890715681\n Fechado: 04/08/2026, 09:01:14\n══════════════════════════════════\n\n[04/08/2026, 09:01:02] Flow Systems#0212:\n@yuki <@&1531998148560683150> <@&1531998148560683150>\n\n[04/08/2026, 09:01:07] Flow Systems#0212:\n-nfa・833855053890715681\n\n[04/08/2026, 09:01:09] Flow Systems#0212:\n:yuki_check: | Ticket para tratar sobre o produto **Chat Gpt Plus • Chat gpt Plus - Nfa**.\n:yuki_warning: Por favor, forneça as informações necessárias e aguarde a equipe.\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1534124044486574111/1534124058382307400/transcript-f2fcefe8-167.txt?ex=6a72fbde&is=6a71aa5e&hm=79abfbca3313579d6ba8e711a0f439d12df9753f8b4d679f0ea0c3138a6b7de4&"
+        },
+        {
+          "id": "1d8c6d37-0776-4d2f-8bef-50b7e8b48d58",
+          "userId": "1494510102907191337",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "open",
+          "at": 1785834075536,
+          "channelId": "1534124047795753040",
+          "assignedTo": null,
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1534124051520422009"
+        },
+        {
+          "id": "19286b05-200b-43d9-a032-04ec29d147d7",
+          "userId": "833855053890715681",
+          "functionId": "support",
+          "functionName": "Suporte",
+          "status": "archived",
+          "at": 1785834128091,
+          "channelId": "1534124268042981386",
+          "assignedTo": null,
+          "guildId": "1522102684176351333",
+          "initialMessageId": "1534124272224571432",
+          "closedAt": 1785834133094,
+          "closedBy": "833855053890715681",
+          "transcriptContent": "══════════════════════════════════\n TRANSCRIPT · Suporte\n ID: 19286b05-200b-43d9-a032-04ec29d147d7\n Usuário: 833855053890715681\n Fechado: 04/08/2026, 09:02:13\n══════════════════════════════════\n\n[04/08/2026, 09:02:09] Flow Systems#0212:\n@yuki @mod @staff\n",
+          "transcriptUrl": "https://cdn.discordapp.com/attachments/1534124044486574111/1534124290402947184/transcript-19286b05-200.txt?ex=6a72fc15&is=6a71aa95&hm=ae8713367fe08f7ded080c9960fa5b25685a3dc9fc4c08d7abcb6f0e68e9239a&"
+        }
+      ],
+      "cloud": {
+        "linked": false,
+        "syncedMembers": null,
+        "serverId": null,
+        "verifiedRoleId": null,
+        "webhookUrl": null
+      },
+      "protect": {
+        "moderation": false,
+        "antiraid": false,
+        "antiSpam": false,
+        "antiLinks": false,
+        "antiMassMention": false,
+        "logChannel": null,
+        "raidLimit": 8,
+        "raidWindowSeconds": 10,
+        "raidPunishment": "Bloquear entradas temporariamente",
+        "selfBot": {
+          "enabled": true,
+          "logChannel": "1532022335526273114",
+          "limit": 3
+        },
+        "antiInvite": {
+          "enabled": false,
+          "logChannel": null,
+          "whitelistRoles": []
+        }
+      },
+      "antiFake": {
+        "enabled": false,
+        "minimumAccountDays": 7,
+        "action": "Registrar em log"
+      }
+    },
+    "1536552688538357880": {
+      "currency": "BRL",
+      "locale": "pt_BR",
+      "botAdmins": [],
+      "products": [
+        {
+          "id": "prod_mttiuz8f",
+          "name": "Conta Netflix Premium [30 Dias]",
+          "description": "✨ **Conta Netflix Premium - Aproveite o Melhor do Entretenimento!** ✨\n\nExplore um mundo de filmes, séries e documentários com sua nova conta Netflix! Perfeita para quem busca diversão sem limites e com a qualidade que só a Netflix oferece.\n\n• Acesso instantâneo a milhares de títulos em alta definição.\n• Perfil exclusivo para você assistir o que quiser, quando quiser.\n• Compatível com diversos dispositivos (Smart TV, celular, tablet, computador).\n\n🚀 **Por que escolher a NovaX Store?**\n• Qualidade garantida em todos os nossos produtos.\n• Suporte rápido e eficiente para todas as suas dúvidas.\n• Satisfação do cliente é a nossa prioridade!\n\nNão perca tempo e garanta já a sua conta Netflix Premium! 🎬🍿",
+          "price": 2,
+          "category": "Contas Streaming",
+          "terms": "**Termos de Uso e Garantia - Conta Netflix Premium**\n\n• **Garantia:** Este produto possui uma garantia de 30 dias corridos a partir da data da compra. Qualquer problema de acesso ou funcionamento dentro deste período será coberto por nossa equipe.\n• **Suporte:** Para qualquer dúvida ou problema, entre em contato com nosso suporte via Discord. O tempo de resposta pode variar, mas nos esforçamos para atender o mais rápido possível.\n• **Uso:** A conta é para uso pessoal e individual. Alterações de senha ou dados da conta podem anular a garantia.\n• **Reembolso:** Reembolsos são emitidos apenas em casos onde a substituição da conta não for possível dentro do prazo de garantia.\n• **Aviso:** Não nos responsabilizamos por usos indevidos da conta ou por violação das diretrizes da Netflix por parte do comprador.",
+          "banner": "",
+          "icon": "",
+          "fields": [
+            {
+              "id": "field_prod_mttiuz8f_1",
+              "name": "Conta Netflix Premium",
+              "price": 2,
+              "description": "Acesso a uma conta Netflix Premium com 30 dias de garantia.",
+              "stock": [
+                {
+                  "content": "EMAIL@netflix.com:SENHA_DA_CONTA | Acesse netflix.com e faça login com os dados fornecidos. Não altere a senha ou o perfil principal para manter a garantia e garantir o suporte.",
+                  "addedAt": 1788923495391
+                }
+              ]
+            }
+          ],
+          "postedMessages": [],
+          "salesMessage": {
+            "channelId": "1545668505234571367",
+            "messageId": "1547082180482703423"
+          }
+        }
+      ],
+      "channels": {
+        "orderLogs": null,
+        "publicPurchases": null,
+        "welcome": null,
+        "system": null,
+        "entries": null,
+        "exits": null,
+        "messages": null,
+        "voiceTraffic": null,
+        "feedback": null,
+        "tickets": null,
+        "notify": null,
+        "stockRequests": null
+      },
+      "roles": {
+        "client": null,
+        "staff": null,
+        "manager": null,
+        "notify": null
+      },
+      "payments": {
+        "manual": {
+          "enabled": false,
+          "configured": true,
+          "pixKey": "suachavepix@gmail.com",
+          "keyType": "Não definido",
+          "message": "Após o pagamento envie o comprovante"
+        },
+        "efi": {
+          "enabled": false,
+          "configured": false,
+          "clientId": "",
+          "clientSecret": "",
+          "pixKey": "",
+          "certificate": "",
+          "sandbox": false
+        },
+        "interImap": {
+          "enabled": false,
+          "configured": false,
+          "email": "",
+          "password": "",
+          "pixKey": "",
+          "host": "imap.gmail.com",
+          "port": 993,
+          "secure": true,
+          "allowedSender": "",
+          "usedUids": []
+        },
+        "nubankImap": {
+          "enabled": false,
+          "configured": false,
+          "email": "",
+          "password": "",
+          "pixKey": "",
+          "host": "imap.gmail.com",
+          "port": 993,
+          "secure": true,
+          "allowedSender": "",
+          "usedUids": []
+        },
+        "mercadoPago": {
+          "enabled": false,
+          "configured": false,
+          "accessToken": "",
+          "publicKey": ""
+        },
+        "evopay": {
+          "enabled": false,
+          "configured": false,
+          "apiKey": ""
+        },
+        "misticpay": {
+          "enabled": false,
+          "configured": false,
+          "clientId": "",
+          "clientSecret": ""
+        },
+        "zenWallet": {
+          "enabled": false,
+          "configured": true
+        },
+        "nubank": {
+          "enabled": false,
+          "configured": false
+        },
+        "pushinpay": {
+          "enabled": false,
+          "configured": false
+        },
+        "litecoin": {
+          "enabled": false,
+          "configured": false
+        }
+      },
+      "welcome": {
+        "enabled": true,
+        "embed": false,
+        "autoDeleteSeconds": 5,
+        "message": "Olá {member} gaste todo seu dinheiro na loja!",
+        "image": "",
+        "color": "#2b2d31",
+        "title": "Bem-vindo(a)!"
+      },
+      "ticket": {
+        "configured": true,
+        "openMode": "Canal Privado",
+        "messageMode": "Embed Clássico",
+        "title": "Central de Atendimento | Zend Sallers",
+        "description": "Após solicitar um atendimento, aguarde um integrante da equipe responde-lo(a). O atendimento é realizado de forma privada, contudo, somente integrantes da equipe terá acesso ao atendimento. Tenha ciência que a nossa equipe não se encontra presente 24 horas por dia, contudo, dentro dos horários citados acima nossa equipe se encontra disponibilizada a atende-lo(a).",
+        "banner": "https://media.discordapp.net/attachments/1358115100032106506/1366529704219246673/ZenSallers.png",
+        "color": "#FFFFFF",
+        "functions": [
+          {
+            "id": "support",
+            "name": "Suporte",
+            "preDescription": "Preciso de suporte",
+            "description": "Atendimento geral",
+            "emoji": "📋",
+            "banner": "",
+            "purchaseDetection": true
+          }
+        ],
+        "hoursEnabled": false,
+        "allowOutsideHours": true,
+        "hoursByDay": [
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          },
+          {
+            "active": false,
+            "openAt": "09:00",
+            "closeAt": "18:00"
+          }
+        ],
+        "postedMessages": []
+      },
+      "automations": {
+        "repost": {
+          "enabled": true,
+          "nuke": false,
+          "time": "09:00"
+        },
+        "messages": {
+          "enabled": false,
+          "items": []
+        },
+        "cleanup": {
+          "enabled": false,
+          "rules": []
+        },
+        "feedback": {
+          "enabled": false,
+          "channel": null,
+          "reactionEmoji": "🫡",
+          "channels": []
+        },
+        "lock": {
+          "enabled": false,
+          "rules": []
+        },
+        "invite": {
+          "enabled": false,
+          "logChannel": null,
+          "rewards": [],
+          "countFake": false,
+          "minimumAccountDays": 7
+        },
+        "restock": {
+          "enabled": false,
+          "channel": null,
+          "mention": "none",
+          "role": null,
+          "sentCount": 0
+        }
+      },
+      "balance": {
+        "enabled": false,
+        "users": {},
+        "history": []
+      },
+      "positions": [
+        {
+          "index": 1,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 2,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 3,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 4,
+          "roleId": null,
+          "amount": null
+        },
+        {
+          "index": 5,
+          "roleId": null,
+          "amount": null
+        }
+      ],
+      "badges": [],
+      "badgeSettings": {
+        "enabled": false,
+        "dm": true,
+        "announcements": false,
+        "announcementChannel": null,
+        "display": true
+      },
+      "tempRoles": [],
+      "tempRoleSettings": {
+        "enabled": false,
+        "removeExpired": true,
+        "notifyDm": true
+      },
+      "storeOauth": {
+        "required": false
+      },
+      "emojis": {
+        "synced": {
+          "2904notifymember": "1547075033346605096",
+          "account": "1547075034668081232",
+          "Aceitar": "1547075035859259492",
+          "activity": "1547075036974686301",
+          "Arrow": "1547075037922730095",
+          "banco2": "1547075038975496305",
+          "carrinhoZend": "1547075040242311209",
+          "celebration": "1547075041529958402",
+          "check": "1547075042612088843",
+          "clock": "1547075044025569400",
+          "cloud": "1547075044813967382",
+          "copicola": "1547075046286172260",
+          "cpfnanotaeolhela": "1547075047317966888",
+          "delete": "1547075048639307776",
+          "ea1": "1547075049419440150",
+          "ea2": "1547075050426077237",
+          "ea3": "1547075051805745282",
+          "ea4": "1547075052871356447",
+          "ea5": "1547075054146297917",
+          "ea6": "1547075055018840198",
+          "ea7": "1547075056390115348",
+          "ea8": "1547075057245749259",
+          "Editar": "1547075058520825958",
+          "editestoque": "1547075059615531039",
+          "efi": "1547075060672626688",
+          "entregaSucess": "1547075061733924894",
+          "folder": "1547075062488899696",
+          "forum": "1547075072383000598",
+          "genesisClock": "1547075073972641942",
+          "genesisNoC": "1547075075625193573",
+          "genesisTicket": "1547075076976017418",
+          "genesisVerifieldDuo": "1547075078095769640",
+          "genesisYes": "1547075079467171900",
+          "hearth": "1547075080809480243",
+          "icons8carrinhodecomprascarregado": "1547075081698811968",
+          "imp_llitecoin": "1547075083091189820",
+          "imp_mercadopago": "1547075084395749519",
+          "infogenesiss": "1547075085700042813",
+          "interBank": "1547075086542970883",
+          "left": "1547075088313098260",
+          "lightning": "1547075091240849410",
+          "litecoinemojidocalai": "1547075092817776721",
+          "lixeiraRed": "1547075093992312895",
+          "loadinggenesiss": "1547075095233564794",
+          "lockEmoji": "1547075096567484426",
+          "nubankBank": "1547075104834592779",
+          "p7dro_pix": "1547075106319368203",
+          "Pix": "1547075107556692028",
+          "plus": "1547075108709998613",
+          "pushInPay": "1547075109951508640",
+          "receipt": "1547075111176110111",
+          "refresh": "1547075112522612748",
+          "role": "1547075113793364068",
+          "roller": "1547075114967900221",
+          "Secured": "1547075116372852766",
+          "setaAnimada": "1547075117648183388",
+          "settings": "1547075118528995482",
+          "Sincronizar": "1547075119745343612",
+          "sparks": "1547075121108226068",
+          "store": "1547075121762664481",
+          "support": "1547075122974818426",
+          "syncMessages": "1547075124417663028",
+          "textc": "1547075125487075381",
+          "Ticket": "1547075126556762133",
+          "title": "1547075127559323678",
+          "trashcan": "1547075128473559112",
+          "unlockEmoji": "1547075129635377232",
+          "upload": "1547075130663112764",
+          "url": "1547075132156149850",
+          "users": "1547075133502398494",
+          "verifieldgenesiss": "1547075134567743558",
+          "visible": "1547075135641747468",
+          "wallet": "1547075136723877908",
+          "welcome": "1547075139974332487",
+          "yesgenesiss": "1547075141501198386",
+          "zendBackupEmoji": "1547075142998429716",
+          "zendCart": "1547075144306917406",
+          "zendGiveaway": "1547075145565343825",
+          "zendMemberGr": "1547075146471448721",
+          "zendPay": "1547075147985588305"
+        },
+        "animated": {
+          "2904notifymember": false,
+          "account": false,
+          "Aceitar": false,
+          "activity": false,
+          "Arrow": false,
+          "banco2": false,
+          "carrinhoZend": false,
+          "celebration": true,
+          "check": false,
+          "clock": false,
+          "cloud": false,
+          "copicola": false,
+          "cpfnanotaeolhela": false,
+          "delete": false,
+          "ea1": false,
+          "ea2": false,
+          "ea3": false,
+          "ea4": false,
+          "ea5": false,
+          "ea6": false,
+          "ea7": false,
+          "ea8": false,
+          "Editar": false,
+          "editestoque": false,
+          "efi": false,
+          "entregaSucess": false,
+          "folder": false,
+          "forum": false,
+          "genesisClock": false,
+          "genesisNoC": false,
+          "genesisTicket": false,
+          "genesisVerifieldDuo": false,
+          "genesisYes": false,
+          "hearth": false,
+          "icons8carrinhodecomprascarregado": false,
+          "imp_llitecoin": false,
+          "imp_mercadopago": false,
+          "infogenesiss": false,
+          "interBank": false,
+          "left": false,
+          "lightning": false,
+          "litecoinemojidocalai": false,
+          "lixeiraRed": false,
+          "loadinggenesiss": true,
+          "lockEmoji": false,
+          "nubankBank": false,
+          "p7dro_pix": false,
+          "Pix": false,
+          "plus": false,
+          "pushInPay": false,
+          "receipt": false,
+          "refresh": true,
+          "role": false,
+          "roller": false,
+          "Secured": false,
+          "setaAnimada": true,
+          "settings": false,
+          "Sincronizar": false,
+          "sparks": false,
+          "store": false,
+          "support": false,
+          "syncMessages": false,
+          "textc": false,
+          "Ticket": false,
+          "title": false,
+          "trashcan": false,
+          "unlockEmoji": false,
+          "upload": false,
+          "url": false,
+          "users": false,
+          "verifieldgenesiss": false,
+          "visible": false,
+          "wallet": false,
+          "welcome": false,
+          "yesgenesiss": false,
+          "zendBackupEmoji": false,
+          "zendCart": false,
+          "zendGiveaway": true,
+          "zendMemberGr": false,
+          "zendPay": false
+        },
+        "lastSyncAt": 1788923695195,
+        "scope": "application"
+      },
+      "customization": {
+        "colors": {
+          "default": "#FFFFFF",
+          "processing": "#fcba03",
+          "success": "#39fc03",
+          "error": "#ff0000",
+          "finished": "#7363ff"
+        },
+        "bot": {
+          "nickname": "",
+          "avatar": "",
+          "banner": "",
+          "status": "Online",
+          "status1": "",
+          "status2": ""
+        },
+        "brand": {
+          "qrLogo": "",
+          "qrColor": "#111827"
+        },
+        "publicLog": {
+          "enabled": false,
+          "v2": true,
+          "image": "",
+          "showBuy": true,
+          "showFeedback": true
+        },
+        "feedbackDm": {
+          "message": "{saudacao} {usuario}. Se você curtiu sua compra, **que tal deixar uma avaliação?** Isso nos motiva, ajuda quem está em dúvida e ainda contribui para que a gente continue oferecendo serviços cada vez melhores pra você! 😊.",
+          "buttonText": "Clique aqui e deixe seu feedback ;)",
+          "delaySeconds": 120
+        },
+        "productMessages": {
+          "v2": false,
+          "sideColor": ""
+        }
+      },
+      "stats": {
+        "salesToday": 0,
+        "salesTotal": 0,
+        "countToday": 0,
+        "countTotal": 0
+      },
+      "purchases": [],
+      "giveaways": [],
+      "carts": [],
+      "cartSequence": 0,
+      "cartSettings": {
+        "expirationMinutes": 30
+      },
+      "invitations": {},
+      "subscriptions": [],
+      "stockRequests": [],
+      "tickets": [],
+      "cloud": {
+        "linked": false,
+        "syncedMembers": null,
+        "serverId": null,
+        "verifiedRoleId": null,
+        "webhookUrl": null
+      },
+      "protect": {
+        "moderation": false,
+        "antiraid": false,
+        "antiSpam": false,
+        "antiLinks": false,
+        "antiMassMention": false,
+        "logChannel": null,
+        "raidLimit": 8,
+        "raidWindowSeconds": 10,
+        "raidPunishment": "Bloquear entradas temporariamente",
+        "selfBot": {
+          "enabled": false,
+          "logChannel": null,
+          "limit": 4
+        },
+        "antiInvite": {
+          "enabled": false,
+          "logChannel": null,
+          "whitelistRoles": []
+        }
+      },
+      "antiFake": {
+        "enabled": false,
+        "minimumAccountDays": 7,
+        "action": "Registrar em log"
+      }
+    }
+  },
+  "drafts": {
+    "1516834021718360104": {},
+    "470205398234693653": {},
+    "833855053890715681": {},
+    "1452663473531260938": {}
+  }
+}
